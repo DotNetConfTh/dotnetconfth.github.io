@@ -2040,6 +2040,7 @@ Cover
   transform: translateY(20px);
   -webkit-transition: all 0.4s 600ms ease-in-out;
   transition: all 0.4s 600ms ease-in-out;
+  word-break: break-word;
 }
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
   font-size: 18px;
