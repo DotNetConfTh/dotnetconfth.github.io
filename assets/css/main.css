@@ -2685,7 +2685,7 @@ Cover
   background-color: #f0f2f6;
 }
 .table.event_calender tbody td, .table.event_calender tbody th {
-  padding: 30px 25px;
+  padding: 30px 20px;
   border: 0;
   vertical-align: middle;
   text-align: center;
