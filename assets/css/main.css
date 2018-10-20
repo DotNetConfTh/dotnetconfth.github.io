@@ -3166,3 +3166,23 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  display: inline-block;
+  vertical-align: baseline;
+  object-fit: contain;
+  max-width: 100%;
+}

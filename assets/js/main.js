@@ -70,7 +70,7 @@ $(document).ready(function () {
      =============================================== */
     $(".cover_slider").owlCarousel({
         loop: true,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 1000,
         autoplayHoverPause: false,
         dots: true,
