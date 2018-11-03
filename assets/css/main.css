@@ -3209,12 +3209,10 @@ video {
 
 #agenda .session-details h5 {
   margin-top: 2px;
-  color: #682a7b;
 }
 
 #agenda .session-details .speaker {
   color: black;
-  font-weight: bold;
 }
 
 #agenda .session-resources strong {
