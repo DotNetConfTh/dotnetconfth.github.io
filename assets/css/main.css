@@ -3186,3 +3186,43 @@ video {
   object-fit: contain;
   max-width: 100%;
 }
+
+#agenda {
+
+}
+
+#agenda .row {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #eee;
+}
+
+#agenda .session-datetime {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#agenda .session-details {
+  padding-bottom: 10px;
+}
+
+#agenda .session-details h5 {
+  margin-top: 2px;
+  padding-bottom: 10px;
+}
+
+#agenda .session-resources strong {
+  color: #f50136;
+}
+
+#agenda .session-resources a {
+  display: inline-block;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+#agenda .session-resources a:hover {
+  text-decoration: underline;
+}
