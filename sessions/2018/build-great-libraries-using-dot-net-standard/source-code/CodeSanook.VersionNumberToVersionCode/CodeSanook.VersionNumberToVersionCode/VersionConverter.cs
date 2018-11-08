@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -11,7 +12,7 @@ namespace Codesanook.VersionNumberToVersionCode
         /// </summary>
         private static Regex versionNumberPattern = new Regex(@"(?<major>\d+)\.(?<minor>\d{1,2})\.(?<patch>\d{1,2})", RegexOptions.Compiled);
 
-        public int VersionNumberToVersionCode(string filePathWithVersionNumber)
+        public static int VersionNumberToVersionCode(string filePathWithVersionNumber)
         {
             var match = versionNumberPattern.Match(filePathWithVersionNumber);
             if (!match.Success)
@@ -26,24 +27,19 @@ namespace Codesanook.VersionNumberToVersionCode
                 .Select(component => int.Parse(match.Groups[component].Value))
                 .ToArray();
 
-            var versionCode = (int)GetVersionCode(versionComponents);
-            return versionCode;
+            return (int)GetVersionCode(versionComponents).Sum();
         }
 
         /// <summary>
         /// base 100 for version code
         /// </summary>
-        private static double GetVersionCode(int[] values, int currentIndex = 0)
+        private static IEnumerable<double> GetVersionCode(int[] values)
         {
             int lastIndex = values.Length - 1;
-            if (currentIndex == lastIndex)
-            {
-                return values[currentIndex];
-            }
-            else
+            for (var currentIndex = 0; currentIndex < values.Length; currentIndex++)
             {
                 var powerNumber = lastIndex - currentIndex;
-                return values[currentIndex] * Math.Pow(100, powerNumber) + GetVersionCode(values, currentIndex + 1);
+                yield return values[currentIndex] * Math.Pow(100, powerNumber);
             }
         }
     }

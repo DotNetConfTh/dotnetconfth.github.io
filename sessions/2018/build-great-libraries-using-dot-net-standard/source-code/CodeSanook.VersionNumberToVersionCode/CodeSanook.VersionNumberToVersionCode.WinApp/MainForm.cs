@@ -20,9 +20,7 @@ namespace CodeSanook.VersionNumberToVersionCode.WinApp
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            var converter = new VersionConverter();
-            txtVersionCode.Text =
-                converter.VersionNumberToVersionCode(txtVersionNumber.Text).ToString();
+            txtVersionCode.Text = VersionConverter.VersionNumberToVersionCode(txtVersionNumber.Text).ToString();
         }
     }
 }
