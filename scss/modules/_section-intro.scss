@@ -1,0 +1,34 @@
+/* section intro start
+	============================================================================================ */
+.section-intro{
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__title{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    // color: $title-color;
+    // margin-bottom: 15px;
+  }
+
+  h2{
+    font-size: 26px;
+
+    @media(min-width: 600px){
+      font-size: 36px;
+    }
+  }
+}
+
+.section-intro-white{
+
+  & > *{
+    color: $white;
+  }
+}
+
+/* section intro end
+	============================================================================================ */
+
+

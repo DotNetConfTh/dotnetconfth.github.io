@@ -1,0 +1,64 @@
+/*=================== custom button rule start ====================*/
+.button{
+  font-family: $title-font;
+  display: inline-block;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 54px;
+  // letter-spacing: 1px;
+  border-radius: 4px;
+  color: $title-color;
+  // color: $white;
+  border: 1px solid $primary-color;
+  text-transform: uppercase;
+  @include transition;
+
+  @media(max-width: 767px){
+    font-size: 13px;
+    padding: 9px 24px;
+  }
+
+  &:hover{
+    background: $primary-color;
+    color: $white;
+  }
+
+
+  &-link{
+    letter-spacing: 0;
+    color: #3b1d82;
+    border: 0;
+    padding: 0;
+
+    &:hover{
+      background: transparent;
+      color: #3b1d82;
+    }
+  }
+
+  &-header{
+    background: $primary-color2;
+    color: $white;
+    border-color: $primary-color2;
+
+    &:hover{
+      background: #b8024c;
+      color: $white;
+    }
+  }
+
+  &-contactForm{
+
+    background: $primary-color;
+    color: $white;
+    border-color: $primary-color;
+
+    &:hover{
+      border-color: $primary-color2;
+      background: #b8024c;
+      color: $white;
+    }
+  }
+}
+/*=================== custom button rule end ====================*/

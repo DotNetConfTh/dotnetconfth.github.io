@@ -1,0 +1,169 @@
+/* global style start
+	============================================================================================ */
+
+body {
+	color: $text-color;
+  font-family: $text-font;
+  font-size: 15px;
+	font-weight: 400;
+  line-height: 1.6;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+
+  &:focus{
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $title-font;
+	color: $title-color;
+	line-height: 1.5;
+}
+
+h1,
+.h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+h2,
+.h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+h3,.h3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4,.h4{
+  font-size: 18px;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
+  margin: 0;
+}
+
+
+.primary-text{
+  color: $primary-color;
+}
+.primary-text2{
+  color: $primary-color2;
+}
+.primary-bg{
+  background-color: $primary-color;
+}
+.bg-gray{
+  background: #f7f7f7;
+}
+
+.section-padding--small{
+  padding: 50px 0;
+
+  @media(min-width: 992px){
+    padding: 100px 0;
+  }
+}
+
+.section-margin{
+  margin: 70px 0;
+
+  @media(min-width: 992px){
+    margin: 120px 0;
+  }
+}
+
+.section-margin--large{
+  margin: 70px 0;
+
+  @media(min-width: 992px){
+    margin: 130px 0;
+  }
+}
+
+
+
+.section-padding{
+  padding: 70px 0;
+
+  @media(min-width: 992px){
+    padding: 120px 0;
+  }
+}
+
+.section-padding--large{
+  padding: 70px 0;
+
+  @media(min-width: 992px){
+    padding: 130px 0;
+  }
+}
+
+.pb-98px{
+  padding-bottom: 58px;
+
+  @media(min-width: 992px){
+    padding-bottom: 98px;
+  }
+}
+
+.pb-80px{
+  padding-bottom: 58px;
+
+  @media(min-width: 992px){
+    padding-bottom: 80px;
+  }
+}
+
+.mb-50px{
+  margin-bottom: 50px;
+}
+
+
+.tab-pane.active {
+  animation: slide-down .5s ease-out;
+}
+
+@keyframes slide-down {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+// .section-padding--small{
+//   padding: 70px 0;
+
+//   @media(min-width: 1000px){
+//     padding: 120px 0;
+//   }
+
+//   &er{
+//     padding: 70px 0;
+
+//     @media(min-width: 1000px){
+//       padding: 100px 0;
+//     }
+//   }
+// }
+
+/* global style end
+	============================================================================================ */
+
