@@ -1,0 +1,16 @@
+---
+food: Pizza
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+    {% include {{page.year}}/header.html %}
+    <div>
+        <h1>{{ layout.food }}</h1>
+        {{ content }}
+    </div>
+    {%- include footer.html -%}
+</body>
