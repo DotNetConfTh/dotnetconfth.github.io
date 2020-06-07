@@ -10,7 +10,7 @@
 
         <!-- KEYNOTE -->
 
-        {% assign keynote = site.data.2019.speakers | first %}
+        {% assign keynote = site.data.2019.speakers | find: "keynote", true %}
         <div class="row justify-content-md-center">
             {%
                 include_relative speaker-list-item.html
@@ -21,7 +21,7 @@
         </div>
 
         <!-- SPEAKERS -->
-        {% assign speakers = site.data.2019.speakers | shift %}
+        {% assign speakers = site.data.2019.speakers | where_exp: "item", "item.keynote != true" %}
         <div class="row">
             {% for speaker in speakers %}
             {%
