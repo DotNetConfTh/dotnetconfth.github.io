@@ -5,8 +5,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: dotnetconfthailand
 
 # Build settings
-# Todo remove theme
-theme: minima
 plugins:
   - jekyll-redirect-from # For redirect root to main child path
 

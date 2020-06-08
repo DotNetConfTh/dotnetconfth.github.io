@@ -2,7 +2,6 @@
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
 {% include head.html %}
 
 <body>
@@ -12,4 +11,19 @@
     </div>
     {% include {{page.year}}/footer.html %}
     {% include foot.html %}
+
+    <ul>
+        <li>
+            year {{ year }}
+        </li>
+        <li>
+            page.year {{ page.year }}
+        </li>
+        <li>
+            site.year {{ site.year }}
+        </li>
+        <li>
+            layout.year {{ layout.year }}
+        </li>
+    </ul>
 </body>
