@@ -1,7 +1,7 @@
 ---
 ---
 {% capture section_style %}
-    /assets/img/{{page.year}}/home/section-style.png
+/assets/img/{{page.year}}/home/section-style.png
 {% endcapture %}
 
 <section class="section-margin mb-5 pb-5" id="agenda">
@@ -29,7 +29,7 @@
                     <div class="tab-content">
                         <div id="day1" class="tab-pane active">
 
-                            {% assign sessions = site.data.2019.sessions %}
+                            {% assign sessions = site.data.data-2019.sessions %}
                             {% for session in sessions %}
                             <div class="schedule-card">
                                 <div class="row no-gutters">

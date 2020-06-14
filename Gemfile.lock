@@ -70,7 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1.0)
-  jekyll-redirect-from
+  jekyll-redirect-from (~> 0.16.0)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

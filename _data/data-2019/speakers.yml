@@ -1,3 +1,6 @@
+# You cannot have a path of data start with a number
+# https://talk.jekyllrb.com/t/liquid-syntax-error-line-x-expected-id-but-found-number/169
+
 - name: Dhanawat Suthumpun
   position: Managing Director at Microsoft Thailand
   linkedin: dhanawat-suthumpun
