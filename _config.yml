@@ -4,16 +4,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: dotnetconfthailand
 
-# Build settings
-plugins:
-  - jekyll-redirect-from # For redirect root to main child path
+# # Build settings
+# plugins:
+#   - jekyll-redirect-from # For redirect root to main child path
 
 # Set default front matter values
 # https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/
 defaults:
   - scope:
       path: "2019"
-      type: "pages"
     values:
       layout: "default"
       year: "2019"

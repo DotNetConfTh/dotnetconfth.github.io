@@ -1,15 +1,19 @@
 ---
+# Still don't know why we can use value from config default in GitHub page
+# It is possible that github use older version
+year: 2019
+
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include head.html %}
 
 <body>
-    {% include {{page.year}}/header.html %}
+    {% include {{layout.year}}/header.html %}
     <div>
         {{ content }}
     </div>
-    {% include {{page.year}}/footer.html %}
+    {% include {{layout.year}}/footer.html %}
     {% include foot.html %}
 
     <ul>
