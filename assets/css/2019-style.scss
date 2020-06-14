@@ -1584,7 +1584,7 @@ h4,
 }
 
 .gallery-bg {
-    background: url("/assets/img/{{year.page}}/home/gallery-bg.png") left center no-repeat;
+    background: url("/assets/img/{{page.year}}/home/gallery-bg.png") left center no-repeat;
     background-size: cover
 }
 

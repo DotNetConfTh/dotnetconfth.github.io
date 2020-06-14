@@ -1,127 +1,84 @@
 ---
 ---
+{% comment %}
+TODO:
+Style sponsor border with Sass
+{% endcomment %}
+
+{% capture section_style %}
+/assets/img/{{page.year}}/home/section-style.png
+{% endcapture %}
 <section class="section-padding--small sponsor-bg" id="sponsors">
     <div class="container">
         <div class="section-intro text-center pb-80px">
             <p class="section-intro__title">Sponsorship</p>
             <h2 class="primary-text">Event Plan Sponsors</h2>
-            <img src="img/home/section-style.png" alt="">
+            <img src="{{ section_style }}" alt="">
         </div>
 
         <div class="sponsor-wrapper mb-5 pb-4">
             <h3 class="sponsor-title mb-5" style="color: #CFB53B">Gold Sponsors</h3>
             <div class="row">
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://7peakssoftware.com/?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%" src="img/sponsors/7peaks.svg" alt="">
+                {% for sponsor in site.data.data-2019.sponsors.gold_sponsors %}
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="{{ sponsor.website_url }}?ref=dotnetconfthailand" target="_blank">
+                        <div>
+                            <img class="img-fluid" style="width: 90%"
+                                src="/assets/img/{{page.year}}/sponsors/{{ sponsor.name | replace: ' ', '-' | strip | downcase }}.png"
+                                alt="{{ sponsor.name }}">
                         </div>
                     </a>
                 </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.krungsri.com/bank/en/home.html/?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%" src="img/sponsors/krungsri.jpg" alt="">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.ookbee.com/?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%; max-height: 90%" src="img/sponsors/ookbee.png"
-                                alt="">
-                        </div>
-                    </a>
-                </div>
+                {% endfor %}
             </div>
         </div>
 
         <div class="sponsor-wrapper mb-1 pb-4">
             <h3 class="sponsor-title mb-5" style="color: #808080">Silver Sponsors</h3>
+            {% assign numberOfItemsPerRow = 3.0 %}
+            {% assign numberOfRows = site.data.data-2019.sponsors.silver_sponsors | size | divided_by: numberOfItemsPerRow | ceil %}
+            {% assign maxRowIndex = numberOfRows | minus: 1 %}
+            {% for rowIndex in (0..maxRowIndex) %}
+            {% assign offsetValue = rowIndex | times: numberOfItemsPerRow %}
             <div class="row">
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.i-bitz.co.th?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%;" src="img/sponsors/i-bitz.png" alt="">
+                {% for sponsor in site.data.data-2019.sponsors.silver_sponsors offset: offsetValue limit: numberOfItemsPerRow %}
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="{{ sponsor.website_url }}?ref=dotnetconfthailand" target="_blank">
+                        <div>
+                            <img class="img-fluid"
+                                src="/assets/img/{{page.year}}/sponsors/{{ sponsor.name | replace: ' ', '-' | strip | downcase }}.png"
+                                alt="{{ sponsor.name }}">
                         </div>
                     </a>
                 </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.cathcartassociates.com/?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%;" src="img/sponsors/cathcart.jpg" alt="">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://bkkthailand.jetabroad.com?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%; height: 90%" src="img/sponsors/jetabroad.svg"
-                                alt="">
-                        </div>
-                    </a>
-                </div>
+                {% endfor %}
             </div>
-        </div>
-
-        <div class="sponsor-wrapper mb-5 pb-4">
-            <div class="row justify-content-md-center">
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.queq.me?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%; height: 90%" src="img/sponsors/queq.png" alt="">
-                        </div>
-                    </a>
-                </div>
-            </div>
+            {% endfor %}
         </div>
 
         <div class="sponsor-wrapper mb-5 sponsor-wrapper--small">
             <h3 class="sponsor-title mb-5" style="color: #e83e8c">Partners</h3>
+            {% assign numberOfItemsPerRow = 3.0 %}
+            {% assign numberOfRows = site.data.data-2019.sponsors.partners | size | divided_by: numberOfItemsPerRow | ceil %}
+            {% assign maxRowIndex = numberOfRows | minus: 1 %}
+            {% for rowIndex in (0..maxRowIndex) %}
+            {% assign offsetValue = rowIndex | times: numberOfItemsPerRow %}
             <div class="row">
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://revdebug.com?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" style="width: 90%" src="img/sponsors/revdebug.png" alt="RevDeBug">
+                {% for sponsor in site.data.data-2019.sponsors.partners offset: offsetValue limit: numberOfItemsPerRow %}
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="{{ sponsor.website_url }}?ref=dotnetconfthailand" target="_blank">
+                        <div>
+                            <img class="img-fluid"
+                                src="/assets/img/{{page.year}}/sponsors/{{ sponsor.name | replace: ' ', '-', | replace: '.', '' | strip | downcase }}.png"
+                                alt="{{ sponsor.name }}">
                         </div>
                     </a>
                 </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://dotnetfoundation.org?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid h-100" src="img/sponsors/netfoundation.png" alt=".NET Foundation">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <div class="sponsor-single">
-                        <img class="img-fluid" style="height: 90%" src="img/sponsors/codesanook.png" alt="">
-                    </div>
-                </div>
+                {% endfor %}
             </div>
-
+            {% endfor %}
 
         </div>
-
-        <div class="sponsor-wrapper mb-5 pb-4">
-            <h3 class="sponsor-title mb-5" style="color: #6f42c1">Realization</h3>
-            <div class="row justify-content-md-center">
-                <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-                    <a href="https://www.microsoft.com/?ref=dotnetconfthailand" target="_blank">
-                        <div class="sponsor-single">
-                            <img class="img-fluid" src="img/sponsors/microsoft.png" alt="">
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
         <div class="sponsor-wrapper sponsor-wrapper--small">
             <h3 class="sponsor-title mb-5">Want to be Sponsor?</h3>
             <div class="row mb-3">
