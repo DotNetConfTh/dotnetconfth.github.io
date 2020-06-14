@@ -1,7 +1,7 @@
 <div class="col-lg-4 col-sm-6 mb-4">
     <div class="card-speaker">
         <img class="card-img rounded-0"
-            src="/assets/img/{{page.year}}/speakers/{{ include.name | split: ' ' | first | downcase }}.jpg"
+            src="/assets/img/{{page.year}}/speakers/{{ include.name | split: ' ' | first | strip | downcase }}.jpg"
             alt="{{ include.name }}">
         <div class="speaker-footer">
             <h4>{{ include.name }}</h4>
