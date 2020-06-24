@@ -1,0 +1,67 @@
+# You cannot have a path of data start with a number
+# https://talk.jekyllrb.com/t/liquid-syntax-error-line-x-expected-id-but-found-number/169
+
+- name: Dhanawat Suthumpun
+  position: Managing Director at Microsoft Thailand
+  linkedin: dhanawat-suthumpun
+  keynote: true
+
+- name: Teerasej Jiraphatchandej
+  position: Microsoft MVP and Development Consultant
+  linkedin: teerasej
+
+- name: Vorapat Nicklamai
+  position: Azure Consultant at Microsoft
+  linkedin: vorapatnicklamai
+
+- name: William Fuqua
+  position: Principal Software Engineer at Jetabroad
+  linkedin: wafuqua
+  github: waf
+  twitter: wafuqua
+
+- name: Joel Dickson
+  position: Senior Developer Manager at Agoda
+  linkedin: joel-dickson-hs
+  github: dicko2
+
+- name: Aaron Theeranit Pongtongmuang
+  position: Senior Software Engineer at Jetabroad
+  linkedin: aaronamm
+  github: aaronamm
+  website: https://www.codesanook.com
+
+- name: Giorgio Desideri
+  position: Tech Lead Cloud Solution at 7 Peaks Software
+  linkedin: giorgio-desideri-176a5a7
+
+- name: Jose Barbosa
+  position: Senior Software Engineer at Jetabroad
+  linkedin: kidchenko
+  github: kidchenko
+
+- name: Surasuk Oakkharaamonphong
+  position: Microsoft MVP and Team Lead at SmartContract
+  linkedin: surasuk612
+
+- name: Gittitat Ekchantawut
+  position: Game Developer at Xrosstales Studio
+  youtube: StrokeCGM
+
+- name: Nattapong Nunpan
+  position: Software Engineer at Jetabroad
+  linkedin: aixasz
+  github: aixasz
+  twitter: aixasz
+
+- name: Yosapol Jitrak
+  position: DevOps Engineer at Humanize
+  github: Eji4h
+
+- name: Michael Kohl
+  position: Tech lead at Gojek
+  twitter: citizen428
+
+- name: Pranart Dechpokket
+  position: Lead Xamarin Developer
+  website: https://xamarin.in.th
