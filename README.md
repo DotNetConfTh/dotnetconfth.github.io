@@ -1,6 +1,12 @@
 ## . NET Conf Thailand
 
-## Redirect form
+###  Running the project locally
+* clone the project
+* docker-compose up
+* Launch a browser and navigate to http://localhost:4000 (live reload)
+
+## Plugins that we use
+### Redirect form
 
 * You need to add redirect form to _config.xml and Gemfile
 
