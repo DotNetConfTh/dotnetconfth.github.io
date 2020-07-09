@@ -1,10 +1,14 @@
-## . NET Conf Thailand
+## . NET Conf Thailand Website
+
+## Running
+
+`docker-compose -f docker-compose.yml up`
 
 ## Redirect form
 
-* You need to add redirect form to _config.xml and Gemfile
+-   You need to add redirect form to \_config.xml and Gemfile
 
-_config.xml
+\_config.xml
 
 ```
 plugins:
@@ -12,6 +16,7 @@ plugins:
 ```
 
 Gemfile
+
 ```
 gem "jekyll-redirect-from"
-``
+```
