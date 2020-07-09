@@ -2,7 +2,7 @@ title: .NET Conf Thailand
 description: Official .NET Conf Thailand
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: dotnetconfthailand
+github_username: dotnetconfth
 
 # # Build settings
 plugins:
@@ -12,10 +12,10 @@ plugins:
 # https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/
 defaults:
   - scope:
-      path: "2019"
+      path: "2020"
     values:
       layout: "default"
-      year: "2019"
+      year: "2020"
 
 # Explicit set default for putting Sass partial files
 # Then you can import a partial file with name only.
