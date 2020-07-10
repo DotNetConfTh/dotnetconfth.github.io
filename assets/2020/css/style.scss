@@ -1,5 +1,9 @@
-@import "./bootstrap/bootstrap";
-@import "./bootstrap/variables";
+---
+year: 2020
+---
+
+@import "bootstrap/bootstrap";
+@import "bootstrap/variables";
 
 $font-primary: "Work Sans", Arial, sans-serif;
 

@@ -14,7 +14,7 @@ defaults:
   - scope:
       path: "2020"
     values:
-      layout: "default"
+      layout: "2020"
       year: "2020"
 
 # Explicit set default for putting Sass partial files
