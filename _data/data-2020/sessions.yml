@@ -1,0 +1,90 @@
+- time: "8:00 - 9:00"
+  title: Registration & Conference Door Opens
+
+- time: "9:00 - 9:15"
+  title: Welcome the .NET Conf 2019 and Review .NET Conf 2018
+  speakers:
+    - Jose Barbosa
+    - Aaron Theeranit Pongtongmuang
+
+- time: "9:15 - 9:30"
+  title: WScott Hanselman Special Video for .NET community in Thailand
+  speakers:
+    - Scott Hanselman
+
+- time: "9:30 - 9:50"
+  title: Opening Keynote
+  speakers:
+    - Dhanawat Suthumpun
+
+- time: "9:50 - 10:30"
+  title: What's new in C# 8
+  speakers:
+    - William Fuqua
+
+- time: "10:30 - 10:50"
+  title: OCoffee Break
+
+- time: "10:50 - 11:20"
+  title: Functional Programming with F#
+  speakers:
+    - Michael Kohl
+
+- time: "11:20 - 12:00"
+  title: The Long Hard Road from .NET Framework to .NET Core
+  speakers:
+    - Joel Dickson
+
+- time: "12:00 - 13:00"
+  title: Lunch Time
+
+- time: "13:00 - 13:20"
+  title: Sponsor Lightning Talk
+
+- time: "13:20 - 14:00"
+  title: DevOps for the .NET Developer
+  speakers:
+    - Giorgio Desideri
+
+- time: "14:00 - 14:30"
+  title: Blazor and Azure Functions for Serverless Websites
+  speakers:
+    - Vorapat Nicklamai
+
+- time: "14:30 - 15:00"
+  title: Creating Libra Cryptocurrency Wallet using .NET SDK
+  speakers:
+    - Surasuk Oakkharaamonphong
+
+- time: "15:00 - 15:30"
+  title: "Xamarin.Forms: More Productive and Beautiful Than Ever"
+  speakers:
+    - Pranart Dechpokket
+
+- time: "15:30 - 16:00"
+  title: Azure Services Every .NET Developer Needs to Know
+  speakers:
+    - Nattapong Nunpan
+
+- time: "16:00 - 16:20"
+  title: Coffee Break
+
+- time: "16:20 - 17:00"
+  title: ASP .NET Core & Entity Framework Core 3.0 and beyond
+  speakers:
+    - Jose Barbosa
+    - Aaron Theeranit Pontongmuang
+
+- time: "17:00 - 17:30"
+  title: Easy Game with C# and Unity
+  speakers:
+    - Gittitat Ekchantawut
+    - Yosapol Jitrak
+
+- time: "17:30 - 18:00"
+  title: What's new in ML.NET
+  speakers:
+    - Teerasej Jiraphatchandej
+
+- time: "18:00"
+  title: Closing Remarks/Gifts/Networking
