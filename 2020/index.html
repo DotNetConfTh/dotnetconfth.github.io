@@ -163,7 +163,7 @@ year: "2020"
 </section>
 
 <!-- SPEAKERS -->
-<!--
+
 <section class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -175,120 +175,18 @@ year: "2020"
          <div class="row">
             <div class="col-md-12 ftco-animate">
                 <div class="carousel-testimony owl-carousel">
-                    <div class="item">
-                        <div class="speaker">
-                            <img src="/assets/2020/img/speaker-1.jpg" class="img-fluid"
-                                alt="Colorlib HTML5 Template" />
-                            <div class="text text-center py-3">
-                                <h3>John Adams</h3>
-                                <span class="position">Web Developer</span>
-                                <ul class="ftco-social mt-3">
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="speaker">
-                            <img src="/assets/2020/img/speaker-2.jpg" class="img-fluid"
-                                alt="Colorlib HTML5 Template" />
-                            <div class="text text-center py-3">
-                                <h3>Paul George</h3>
-                                <span class="position">Web Developer</span>
-                                <ul class="ftco-social mt-3">
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="speaker">
-                            <img src="/assets/2020/img/speaker-3.jpg" class="img-fluid"
-                                alt="Colorlib HTML5 Template" />
-                            <div class="text text-center py-3">
-                                <h3>James Smith</h3>
-                                <span class="position">Web Developer</span>
-                                <ul class="ftco-social mt-3">
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="speaker">
-                            <img src="/assets/2020/img/speaker-4.jpg" class="img-fluid"
-                                alt="Colorlib HTML5 Template" />
-                            <div class="text text-center py-3">
-                                <h3>Angelie Crawford</h3>
-                                <span class="position">Web Developer</span>
-                                <ul class="ftco-social mt-3">
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="speaker">
-                            <img src="/assets/2020/img/speaker-5.jpg" class="img-fluid"
-                                alt="Colorlib HTML5 Template" />
-                            <div class="text text-center py-3">
-                                <h3>Jackie Spears</h3>
-                                <span class="position">Entrepreneur</span>
-                                <ul class="ftco-social mt-3">
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate">
-                                        <a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    {% assign speakers = site.data.data-2020.speakers | where_exp: "item",
+                    "item.keynote != true" %}
+                    {% for speaker in speakers %} {% include_relative
+                        speaker-list-item.html name=speaker.name position=speaker.position
+                        linkedin=speaker.linkedin github=speaker.github
+                        website=speaker.website youtube=speaker.youtube %}
+                        {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!--
 <section class="ftco-section bg-light">
