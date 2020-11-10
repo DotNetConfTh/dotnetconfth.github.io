@@ -343,7 +343,7 @@ h5,
     background-position: top center;
     .overlay {
         position: absolute;
-        width: 50%;
+        width: 100%;
         top: 0;
         left: 0;
         right: 0;
@@ -418,7 +418,7 @@ h5,
 
 //TIMER COUNTDOWN
 #timer {
-    width: 50%;
+    width: 100%;
     @include media-breakpoint-down(md) {
         width: 100%;
     }
