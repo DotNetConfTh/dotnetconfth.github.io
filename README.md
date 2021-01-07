@@ -2,7 +2,13 @@
 
 ## Running
 
+Docker
+
 `docker-compose -f docker-compose.yml up`
+
+Local Machine
+
+jekyll serve --force_polling --livereload
 
 ## Redirect form
 

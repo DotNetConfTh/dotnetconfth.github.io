@@ -1,26 +1,30 @@
 # You cannot have a path of data start with a number
 # https://talk.jekyllrb.com/t/liquid-syntax-error-line-x-expected-id-but-found-number/169
 
-# - name: Teerasej Jiraphatchandej
-#   position: Microsoft MVP and Development Consultant
-#   linkedin: teerasej
+- name: Teerasej Jiraphatchandej
+  position: Microsoft MVP and Development Consultant
+  linkedin: teerasej
 
-# - name: Vorapat Nicklamai
-#   position: Azure Consultant at Microsoft
-#   linkedin: vorapatnicklamai
+- name: Vorapat Nicklamai
+  position: Cloud Solution Architect at Microsoft
+  linkedin: vorapatnicklamai
 
-- name: William Fuqua
+- name: Will Fuqua
   position: Principal Software Engineer at Jetabroad
   linkedin: wafuqua
   github: waf
   twitter: wafuqua
 
-# - name: Joel Dickson
-#   position: Senior Developer Manager at Agoda
-#   linkedin: joel-dickson-hs
-#   github: dicko2
+- name: Sirinat Paphatsirinatthi
+  position: Co-Founder at KubeOps Skills
+  linkedin: https://th.linkedin.com/in/sirinat, https://github.com/dmakeroam
 
-- name: Aaron Theeranit Pongtongmuang
+- name: Joel Dickson
+  position: Senior Developer Manager at Agoda
+  linkedin: joel-dickson-hs
+  github: dicko2
+
+- name: Aaron Pongtongmuang
   position: Senior Software Engineer at CodeSanook
   linkedin: aaronamm
   github: aaronamm
@@ -35,28 +39,22 @@
   linkedin: kidchenko
   github: kidchenko
 
-- name: Surasuk Oakkharaamonphong
-  position: Microsoft MVP
-  linkedin: surasuk612
+- name: Rachanee Saengkrajai
+  position: Lead Software Engineer at MyWorkpapers
+  linkedin: https://www.linkedin.com/in/rachanees/
 
-# - name: Gittitat Ekchantawut
-#   position: Game Developer at Xrosstales Studio
-#   youtube: StrokeCGM
+# - name: Surasuk Oakkharaamonphong
+#   position: Microsoft MVP
+#   linkedin: surasuk612
 
-# - name: Nattapong Nunpan
-#   position: Software Engineer at Jetabroad
-#   linkedin: aixasz
-#   github: aixasz
-#   twitter: aixasz
+- name: Gittitat Ekchantawut
+  position: Game Developer at Xrosstales Studio
+  youtube: StrokeCGM
 
-# - name: Yosapol Jitrak
-#   position: DevOps Engineer at Humanize
-#   github: Eji4h
+- name: Vlad Batushkov
+  position: Engineering Technical Lead @ Agoda & Neo4j Featured Community Member
+  linkedin: https://www.linkedin.com/in/rachanees/
 
-# - name: Michael Kohl
-#   position: Tech lead at Gojek
-#   twitter: citizen428
-
-# - name: Pranart Dechpokket
-#   position: Lead Xamarin Developer
-#   website: https://xamarin.in.th
+- name: Nicolas Pierson
+  position: Solution Architect at 7 Peaks Software
+  linkedin: https://www.linkedin.com/in/nicolas-pierson/

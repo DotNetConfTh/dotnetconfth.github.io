@@ -1,90 +1,85 @@
-- time: "8:00 - 9:00"
-  title: Registration & Conference Door Opens
-
-- time: "9:00 - 9:15"
-  title: Welcome the .NET Conf 2019 and Review .NET Conf 2018
+- time: "10:00 - 10:30"
+  title: Welcome the .NET Conf Thailand
+  photo: jose.jpg
   speakers:
     - Jose Barbosa
-    - Aaron Theeranit Pongtongmuang
 
-- time: "9:15 - 9:30"
-  title: WScott Hanselman Special Video for .NET community in Thailand
+- time: "10:30 - 11:00"
+  title: KEYNOTE
+  photo:
   speakers:
-    - Scott Hanselman
+    - To be announced
 
-- time: "9:30 - 9:50"
-  title: Opening Keynote
+- time: "11:00 - 11:30"
+  title: What's new in C# 9.0
+  photo: "will.jpg"
   speakers:
-    - Dhanawat Suthumpun
+    - Will Fuqua
 
-- time: "9:50 - 10:30"
-  title: What's new in C# 8
+- time: "11:30 - 12:00"
+  title: Developing / Debugging ASP .NET Core Web API on Kubernetes with Microsoft Bridge to Kubernetes
+  photo: sirinat.jpg
   speakers:
-    - William Fuqua
+    - Sirinat Paphatsirinatthi
 
-- time: "10:30 - 10:50"
-  title: OCoffee Break
+- time: "12:00 - 13:00"
+  title: Lunch Break
 
-- time: "10:50 - 11:20"
-  title: Functional Programming with F#
-  speakers:
-    - Michael Kohl
-
-- time: "11:20 - 12:00"
-  title: The Long Hard Road from .NET Framework to .NET Core
+- time: "13:00 - 13:30"
+  title: To be announced
+  photo: joel.jpg
   speakers:
     - Joel Dickson
 
-- time: "12:00 - 13:00"
-  title: Lunch Time
-
-- time: "13:00 - 13:20"
-  title: Sponsor Lightning Talk
-
-- time: "13:20 - 14:00"
-  title: DevOps for the .NET Developer
+- time: "13:30 - 14:00"
+  title: DevOps & Identity Management with Azure
+  photo: giorgio.jpg
   speakers:
     - Giorgio Desideri
 
 - time: "14:00 - 14:30"
-  title: Blazor and Azure Functions for Serverless Websites
+  title: Azure Static Web App with Github Action
+  photo: vorapat.jpg
   speakers:
     - Vorapat Nicklamai
 
 - time: "14:30 - 15:00"
-  title: Creating Libra Cryptocurrency Wallet using .NET SDK
+  title: High-performance Services with gRPC
+  photo: rachanee.jpg
   speakers:
-    - Surasuk Oakkharaamonphong
+    - Rachanee Saengkrajai
 
 - time: "15:00 - 15:30"
-  title: "Xamarin.Forms: More Productive and Beautiful Than Ever"
+  title: To be announced
   speakers:
-    - Pranart Dechpokket
+    - To be announced
 
 - time: "15:30 - 16:00"
-  title: Azure Services Every .NET Developer Needs to Know
+  title: "Entity Framework Core 5.0: The Next Generation for Data Access"
+  photo: aaron.jpg
   speakers:
-    - Nattapong Nunpan
+    - Aaron Pongtongmuang
 
-- time: "16:00 - 16:20"
-  title: Coffee Break
-
-- time: "16:20 - 17:00"
-  title: ASP .NET Core & Entity Framework Core 3.0 and beyond
-  speakers:
-    - Jose Barbosa
-    - Aaron Theeranit Pontongmuang
-
-- time: "17:00 - 17:30"
-  title: Easy Game with C# and Unity
+- time: "16:00 - 16:30"
+  title: "UniRx = Unity + Rx Reactive programming for game"
+  photo: gittitat.jpg
   speakers:
     - Gittitat Ekchantawut
-    - Yosapol Jitrak
 
-- time: "17:30 - 18:00"
-  title: What's new in ML.NET
+- time: "16:30 - 17:00"
+  title: "Introduction to Azure Form Recognizer"
+  photo: teerasej.jpg
   speakers:
     - Teerasej Jiraphatchandej
 
-- time: "18:00"
-  title: Closing Remarks/Gifts/Networking
+- time: "17:00 - 17:30"
+  title: Breaking the Monolith
+  photo: vlad.jpg
+  speakers:
+    - Vlad Batushkov
+
+- time: "17:30 - 18:00"
+  title: Serverless applications with an API first approach
+  photo: nicolas.jpg
+  speakers:
+    - Nicolas Pierson
