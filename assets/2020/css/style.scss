@@ -671,13 +671,13 @@ h5,
 .speaker-wrap {
     width: 100%;
     background: $white;
-    padding: 40px;
     margin-bottom: 20px;
     @include transition(0.3s);
     .speaker-img {
         width: 120px;
         height: 120px;
         @include border-radius(50%);
+        margin: .7em;
     }
     .text {
         width: calc(100% - 120px);
