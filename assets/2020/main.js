@@ -345,7 +345,7 @@ AOS.init({
   });
 
   function makeTimer() {
-    var endTime = new Date("23 January 2021 8:00:00 GMT+01:00");
+    var endTime = new Date("23 January 2021 10:00:00 GMT+07:00");
     endTime = Date.parse(endTime) / 1000;
 
     var now = new Date();
