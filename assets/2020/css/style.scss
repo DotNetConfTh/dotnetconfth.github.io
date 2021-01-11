@@ -125,7 +125,6 @@ h5,
     right: 0;
     z-index: 3;
     @include media-breakpoint-down(md) {
-        background: $black !important;
         position: relative;
         top: 0;
     }
@@ -226,7 +225,7 @@ h5,
     }
     .navbar-toggler {
         border: none;
-        color: rgba(255, 255, 255, 0.5) !important;
+        color: royalblue !important;
         cursor: pointer;
         padding-right: 0;
         text-transform: uppercase;
