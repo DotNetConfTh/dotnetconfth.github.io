@@ -58,8 +58,9 @@ Connecting your development computer to your cluster while debugging allows you 
     - Rachanee Saengkrajai
 
 - time: "15:00 - 15:30"
-  title: To be announced
+  title: Securing Blazor WebAssembly (Thai)
   photo: surasuk.jpg
+  description: "Explore how to secure your Blazor WebAssembly application"
   speakers:
     - Surasuk Oakkharaamonphong
 
