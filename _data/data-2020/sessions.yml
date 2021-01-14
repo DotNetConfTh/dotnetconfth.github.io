@@ -23,8 +23,7 @@
   photo: sirinat.jpg
   description: "Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services.
 Bridge to Kubernetes avoids having to build and deploy your code to your cluster by instead creating a connection directly between your development computer and your cluster.
-Connecting your development computer to your cluster while debugging allows you to quickly test and develop your service in the context of the full application without creating any Docker or Kubernetes configuration.
-<a href='https://devblogs.microsoft.com/visualstudio/bridge-to-kubernetes-ga/'>https://devblogs.microsoft.com/visualstudio/bridge-to-kubernetes-ga/</a>"
+Connecting your development computer to your cluster while debugging allows you to quickly test and develop your service in the context of the full application without creating any Docker or Kubernetes configuration."
   speakers:
     - Sirinat Paphatsirinatthi
 
@@ -32,7 +31,8 @@ Connecting your development computer to your cluster while debugging allows you 
   title: Lunch Break
 
 - time: "13:00 - 13:30"
-  title: To be announced
+  title: Github Actions in Action, beyond CI
+  description: "Github Actions can be used for more than just running your unit tests and building packages. It can also be used for automating common things you do everyday. We are going to explore in a practical session how to do some of these things based off experiences from development teams at Agoda."
   photo: joel.jpg
   speakers:
     - Joel Dickson
@@ -59,8 +59,9 @@ Connecting your development computer to your cluster while debugging allows you 
 
 - time: "15:00 - 15:30"
   title: To be announced
+  photo: surasuk.jpg
   speakers:
-    - To be announced
+    - Surasuk Oakkharaamonphong
 
 - time: "15:30 - 16:00"
   title: "Entity Framework Core 5.0: The Next Generation for Data Access"
