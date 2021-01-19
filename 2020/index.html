@@ -161,9 +161,28 @@ year: "2020"
 
 <section class="ftco-section" id="speakers">
     <div class="container">
+        <!-- <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">Speakers</span>
+                <h2 class="mb-4"><span>Our</span> Keynote</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="carousel-testimony owl-carousel">
+                    {% assign keynotes = site.data.data-2020.speakers | where_exp: "item",
+                    "item.keynote == true" | first %}
+                    {% for speaker in keynotes %} {% include_relative
+                        speaker-list-item.html name=speaker.name position=speaker.position
+                        linkedin=speaker.linkedin github=speaker.github
+                        website=speaker.website youtube=speaker.youtube %}
+                        {% endfor %}
+                </div>
+            </div>
+        </div> -->
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 text-center heading-section ftco-animate">
-                <span class="subheading">Speaker</span>
+                <span class="subheading">Speakers</span>
                 <h2 class="mb-4"><span>Our</span> Speakers</h2>
             </div>
         </div>
@@ -217,6 +236,7 @@ year: "2020"
                                 {% endfor %}
                                 <div class="text pl-md-5">
                                     <span class="time">{{ session.time }}</span>
+                                    <strong>{{ session.keynote }}</strong>
                                     <h2>
                                         <a href="#">{{ session.title }}</a>
                                     </h2>

@@ -1,15 +1,16 @@
 - time: "10:00 - 10:30"
-  title: Welcome the .NET Conf Thailand
+  title: Welcome to the .NET Conf Thailand
   photo: jose.jpg
   speakers:
     - Jose Barbosa
 
 - time: "10:30 - 11:00"
-  title: KEYNOTE
-  photo:
-  description:
+  title: Steve Carroll
+  keynote: Keynote
+  photo: steve.jpg
+  description: Steve will give you a whirlwind tour of all the cool new features that were released in the .NET 5 wave of languages, tools, libraries, and runtimes!
   speakers:
-    - To be announced
+    - Steve Carroll
 
 - time: "11:00 - 11:30"
   title: What's new in C# 9.0
@@ -32,7 +33,7 @@ Connecting your development computer to your cluster while debugging allows you 
 
 - time: "13:00 - 13:30"
   title: Github Actions in Action, beyond CI
-  description: "Github Actions can be used for more than just running your unit tests and building packages. It can also be used for automating common things you do everyday. We are going to explore in a practical session how to do some of these things based off experiences from development teams at Agoda."
+  description: Github Actions can be used for more than just running your unit tests and building packages. It can also be used for automating common things you do everyday. We are going to explore in a practical session how to do some of these things based off experiences from development teams at Agoda.
   photo: joel.jpg
   speakers:
     - Joel Dickson
@@ -40,6 +41,7 @@ Connecting your development computer to your cluster while debugging allows you 
 - time: "13:30 - 14:00"
   title: DevOps & Identity Management with Azure
   photo: giorgio.jpg
+  description: Find the causes and mistakes of building a stable DevOps solution for your own project or programs. Show some of the fundamentals key points and concepts for the right usage of DevOps into an Azure environment giving some tips and explanation about the possible services and technique to use to achieve the right solution for your specific situation.
   speakers:
     - Giorgio Desideri
 
@@ -60,7 +62,7 @@ Connecting your development computer to your cluster while debugging allows you 
 - time: "15:00 - 15:30"
   title: Securing Blazor WebAssembly (Thai)
   photo: surasuk.jpg
-  description: "Explore how to secure your Blazor WebAssembly application"
+  description: Explore how to secure your Blazor WebAssembly application
   speakers:
     - Surasuk Oakkharaamonphong
 
@@ -100,5 +102,6 @@ Connecting your development computer to your cluster while debugging allows you 
 - time: "17:30 - 18:00"
   title: Serverless applications with an API first approach
   photo: nicolas.jpg
+  description: What is the API-first approach? Why is it so important? We will go through the benefits and the critical points to remember when applying this strategy for your applications. It will come with concretes example hosted on Microsoft Azure.
   speakers:
     - Nicolas Pierson

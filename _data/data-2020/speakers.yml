@@ -1,6 +1,5 @@
 # You cannot have a path of data start with a number
 # https://talk.jekyllrb.com/t/liquid-syntax-error-line-x-expected-id-but-found-number/169
-
 - name: Teerasej Jiraphatchandej
   position: Microsoft MVP and Development Consultant
   linkedin: teerasej
@@ -48,7 +47,7 @@
   linkedin: surasuk612
 
 - name: Gittitat Ekchantawut
-  position: Game Developer at Xrosstales Studio
+  position: Senior Unity Engineer at Technobrave Asia
   youtube: StrokeCGM
 
 - name: Vlad Batushkov
@@ -58,3 +57,8 @@
 - name: Nicolas Pierson
   position: Solution Architect at 7 Peaks Software
   linkedin: https://www.linkedin.com/in/nicolas-pierson/
+
+- name: Steve Carroll
+  position: Partner Director of Development at Microsoft
+  linkedin:
+  keynone: true
