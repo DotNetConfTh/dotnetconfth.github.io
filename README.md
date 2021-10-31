@@ -12,9 +12,9 @@ jekyll serve --force_polling --livereload
 
 ## Redirect form
 
--   You need to add redirect form to \_config.xml and Gemfile
+-   You need to add redirect form to \_config.yml and Gemfile
 
-\_config.xml
+\_config.yml
 
 ```
 plugins:

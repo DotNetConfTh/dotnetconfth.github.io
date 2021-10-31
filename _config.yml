@@ -12,10 +12,10 @@ plugins:
 # https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/
 defaults:
   - scope:
-      path: "2020"
+      path: "2021"
     values:
-      layout: "2020"
-      year: "2020"
+      layout: "2021"
+      year: "2021"
 
 # Explicit set default for putting Sass partial files
 # Then you can import a partial file with name only.
