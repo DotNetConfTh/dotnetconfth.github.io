@@ -1,27 +1,21 @@
 # You cannot have a path of data start with a number
 # https://talk.jekyllrb.com/t/liquid-syntax-error-line-x-expected-id-but-found-number/169
+- name: Surasuk Oakkharaamonphong
+  position: Microsoft MVP Developer Technologies
+  linkedin: surasuk612
+
 - name: Teerasej Jiraphatchandej
-  position: Microsoft MVP and Development Consultant
+  position: Microsoft MVP Developer Technologies
   linkedin: teerasej
-
-- name: Vorapat Nicklamai
-  position: Cloud Solution Architect at Microsoft
-  linkedin: vorapatnicklamai
-
-- name: Will Fuqua
-  position: Principal Software Engineer at Jetabroad
-  linkedin: wafuqua
-  github: waf
-  twitter: wafuqua
 
 - name: Sirinat Paphatsirinatthi
   position: Co-Founder at KubeOps Skills
   linkedin: https://th.linkedin.com/in/sirinat, https://github.com/dmakeroam
 
-- name: Joel Dickson
-  position: Senior Developer Manager at Agoda
-  linkedin: joel-dickson-hs
-  github: dicko2
+# - name: Joel Dickson
+#   position: Senior Developer Manager at Agoda
+#   linkedin: joel-dickson-hs
+#   github: dicko2
 
 - name: Aaron Pongtongmuang
   position: Senior Software Engineer at CodeSanook
@@ -30,7 +24,7 @@
   website: https://www.codesanook.com
 
 - name: Giorgio Desideri
-  position: Tech Lead Cloud Solution at 7 Peaks Software
+  position: Tech Lead Cloud Solution at Seven Peaks Software
   linkedin: giorgio-desideri-176a5a7
 
 - name: Jose Barbosa
@@ -38,27 +32,27 @@
   linkedin: kidchenko
   github: kidchenko
 
-- name: Rachanee Saengkrajai
-  position: Lead Software Engineer at MyWorkpapers
-  linkedin: https://www.linkedin.com/in/rachanees/
+# - name: Rachanee Saengkrajai
+#   position: Lead Software Engineer at MyWorkpapers
+#   linkedin: https://www.linkedin.com/in/rachanees/
 
-- name: Surasuk Oakkharaamonphong
-  position: Microsoft MVP Developer Technologies
-  linkedin: surasuk612
+# - name: Gittitat Ekchantawut
+#   position: Senior Unity Engineer at Technobrave Asia
+#   youtube: StrokeCGM
 
-- name: Gittitat Ekchantawut
-  position: Senior Unity Engineer at Technobrave Asia
-  youtube: StrokeCGM
-
-- name: Vlad Batushkov
-  position: Engineering Technical Lead at Agoda
-  linkedin: https://www.linkedin.com/in/rachanees/
+# - name: Vlad Batushkov
+#   position: Engineering Technical Lead at Agoda
+#   linkedin: https://www.linkedin.com/in/rachanees/
 
 - name: Nicolas Pierson
-  position: Solution Architect at 7 Peaks Software
+  position: Solution Architect at Seven Peaks Software
   linkedin: https://www.linkedin.com/in/nicolas-pierson/
 
-- name: Steve Carroll
-  position: Partner Director of Development at Microsoft
-  linkedin:
-  keynone: true
+- name: Vorapat Nicklamai
+  position: Cloud Solution Architect at Microsoft
+  linkedin: vorapatnicklamai
+
+# - name: Steve Carroll
+#   position: Partner Director of Development at Microsoft
+#   linkedin:
+#   keynone: true

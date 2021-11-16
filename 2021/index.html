@@ -15,7 +15,7 @@ year: "2021"
                     .NET CONF <br /><span>Thailand</span>
                 </h1>
                 <p class="mb-4 text-center font-weight-bold" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    <!-- Online event, live stream starts in: -->
+                    Online event, live stream starts in:
                 </p>
                 <div id="timer" class="d-flex mb-3 text-center">
                     <div class="time font-weight-bold" id="days"></div>
@@ -64,7 +64,7 @@ year: "2021"
                     <div class="media-body">
                         <h3 class="heading mb-3">International Business</h3>
                         <p>
-                            We have partnered with organizers around the globe to bring you 93 community virtual events between November 9, 2021 and January 31, 2021.
+                            We have partnered with organizers around the globe to bring you 93 community virtual events between November 9, 2021 and January 31, 2022.
                         </p>
                     </div>
                 </div>
@@ -159,9 +159,9 @@ year: "2021"
 </section>
 -->
 
-<!-- SPEAKERS -->
+<!-- START SPEAKERS -->
 
-<!-- <section class="ftco-section" id="speakers">
+<section class="ftco-section" id="speakers">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 text-center heading-section ftco-animate">
@@ -204,8 +204,9 @@ year: "2021"
         </div>
     </div>
 </section>
--->
+<!-- END SPEAKER  -->
 
+<!-- START SESSION -->
 
 <section class="ftco-section bg-light" id="schedule1">
     <div class="container">
@@ -227,14 +228,43 @@ year: "2021"
                     </p>
                 </div>
                 <div class="col-md-12 tab-wrap">
-                    <div class="tab-content" id="v-pills-tabContent">
-                    </div>
+                    <!-- <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
+                            aria-labelledby="day-1-tab">
+                            {% assign sessions = site.data.data-2020.sessions %}
+                            {% for session in sessions %}
+                            <div class="speaker-wrap ftco-animate d-flex">
+                                {% for speaker in session.speakers %}
+                                {% assign style = "style='background-image: url(/assets/2020/img/speakers/" | append: session.photo | append: ")'" %}
+                                <div class="img speaker-img" {{style}}>
+                                </div>
+                                {% endfor %}
+                                <div class="text pl-md-5">
+                                    <span class="time">{{ session.time }}</span>
+                                    <strong>{{ session.keynote }}</strong>
+                                    <h2>
+                                        <a href="#">{{ session.title }}</a>
+                                    </h2>
+                                    <p>
+                                        {{ session.description }}
+                                    </p>
+                                    {% for speaker in session.speakers %}
+                                    <h3 class="speaker-name">
+                                        &mdash; <a href="#">{{ speaker }}</a>
+                                        <span class="position">Founder of Wordpress</span>
+                                    </h3>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+<!-- END SESSION -->
 
 <!-- <section class="ftco-section testimony-section">
     <div class="container">
