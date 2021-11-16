@@ -715,7 +715,7 @@ h5,
             right: 0;
             content: "";
             width: 80%;
-            height: 1px;
+            height: 0px;
             margin: 0 auto;
             @include gradient-background();
         }
