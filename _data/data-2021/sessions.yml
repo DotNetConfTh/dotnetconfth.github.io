@@ -34,21 +34,21 @@
     - Gittitat Ekchantawut
 
 - time: "11:30 - 12:00"
-  title: Thoughts of a Team Leader about .NET 6
-  photo: giorgio.jpg
-  description: "Find the causes and mistakes of building a stable DevOps solution for your own project or programs. Show some of the fundamentals key points and concepts for the right usage of DevOps into an Azure environment giving some tips and explanation about the possible services and technique to use to achieve the right solution for your specific situation."
-  speakers:
-    - Giorgio Desideri
-
-- time: "12:00 - 13:00"
-  title: Lunch Break
-
-- time: "13:00 - 13:30"
   title: What's new in C# 10
   photo: jose.jpg
   description: "Let's a look on what's new for developers in the latest release of C#. C# 10 simply a lot the language."
   speakers:
     - Jose Barbosa
+
+- time: "12:00 - 13:00"
+  title: Lunch Break
+
+- time: "13:00 - 13:30"
+  title: Thoughts of a Team Leader about .NET 6
+  photo: giorgio.jpg
+  description: "Find the causes and mistakes of building a stable DevOps solution for your own project or programs. Show some of the fundamentals key points and concepts for the right usage of DevOps into an Azure environment giving some tips and explanation about the possible services and technique to use to achieve the right solution for your specific situation."
+  speakers:
+    - Giorgio Desideri
 
 
 - time: "13:30 - 14:00"
