@@ -60,16 +60,24 @@
 
 
 - time: "14:00 - 14:30"
-  title: "TBA"
+  title: "Event Driven .NET 6 on Container App with Dapr"
   photo: sirinat.jpg
-  description: ""
+  description: "Event Driven .NET 6 on Container App with Dapr"
   speakers:
     - Sirinat Paphatsirinatthi
 
 - time: "14:30 - 15:00"
-  title: "TBA"
+  title: "What's New in EF Core 6"
   photo: aaron.jpg
-  description: ""
+  description: "EF Core 6 is a cross-platform object-mapper that
+- enables C# developers to use domain classes
+- strongly typed LINQ queries to interface with a backend database
+
+EF Core 6 is the latest version that
+- features performance improvements,
+- support for temporal tables
+- cloud-native-friendly migration bundles
+- improved handling of complex queries and substantial improvements to the Azure Cosmos DB provider"
   speakers:
     - Aaron Pongtongmuang
 
@@ -81,22 +89,22 @@
     - Nicolas Pierson
 
 - time: "15:30 - 16:00"
-  title: "TBA"
+  title: "dotnet monitor for .NET 6"
   photo: "piti.jpg"
-  description: ""
+  description: "The dotnet monitor is a tool that can collect diagnostics artifacts for debugging .NET applications."
   speakers:
-    - TBA
+    - Piti (Fyi) Champeethong
 
-- time: "16:00 - 16:30"
-  title: "TBA"
-  photo: ""
-  description: ""
-  speakers:
-    - TBA
+# - time: "16:00 - 16:30"
+#   title: "TBA"
+#   photo: ""
+#   description: ""
+#   speakers:
+#     - TBA
 
-- time: "16:30 - 17:00"
-  title: "TBA"
-  photo: ""
-  description: ""
-  speakers:
-    - TBA
+# - time: "16:30 - 17:00"
+#   title: "TBA"
+#   photo: ""
+#   description: ""
+#   speakers:
+#     - TBA
