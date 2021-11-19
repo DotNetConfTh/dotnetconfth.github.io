@@ -60,11 +60,12 @@
 
 
 - time: "14:00 - 14:30"
-  title: "Event Driven .NET 6 on Container App with Dapr"
-  photo: sirinat.jpg
-  description: "Event Driven .NET 6 on Container App with Dapr"
+  title: "dotnet monitor for .NET 6"
+  photo: "piti.jpg"
+  description: "The dotnet monitor is a tool that can collect diagnostics artifacts for debugging .NET applications."
   speakers:
-    - Sirinat Paphatsirinatthi
+    - Piti (Fyi) Champeethong
+
 
 - time: "14:30 - 15:00"
   title: "What's New in EF Core 6"
@@ -89,11 +90,11 @@ EF Core 6 is the latest version that
     - Nicolas Pierson
 
 - time: "15:30 - 16:00"
-  title: "dotnet monitor for .NET 6"
-  photo: "piti.jpg"
-  description: "The dotnet monitor is a tool that can collect diagnostics artifacts for debugging .NET applications."
+  title: "Event Driven .NET 6 on Azure Container Apps with Dapr"
+  photo: sirinat.jpg
+  description: "The Distributed Application Runtime (Dapr) provides APIs that simplify microservice connectivity. Whether your communication pattern is service to service invocation or pub/sub messaging, Dapr helps you write resilient and secured microservices. With the Azure Container Apps, you can getting fast to deploy your .NET 6 with Dapr simpler than before."
   speakers:
-    - Piti (Fyi) Champeethong
+    - Sirinat Paphatsirinatthi
 
 # - time: "16:00 - 16:30"
 #   title: "TBA"
