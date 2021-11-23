@@ -1,12 +1,9 @@
 name: CI
 on:
-  pull_request:
-    branches:
-      - main
   push:
-      # only trigger on branches, not on tags
-    branches: 
-      - add-lighthouse
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 jobs:
   lighthouseci:
     runs-on: ubuntu-latest
