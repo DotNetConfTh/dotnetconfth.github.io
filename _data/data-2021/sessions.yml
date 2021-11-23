@@ -52,9 +52,9 @@
 
 
 - time: "13:30 - 14:00"
-  title: "TBA"
+  title: "Manage AKS Cluster Access via Azure AD"
   photo: vorapat.jpg
-  description: ""
+  description: "Let me show you how to create AAD users and groups that can access AKS with given permissions."
   speakers:
     - Vorapat Nicklamai
 
@@ -83,9 +83,9 @@ EF Core 6 is the latest version that
     - Aaron Pongtongmuang
 
 - time: "15:00 - 15:30"
-  title: TBA
+  title: Minimal APIs in .NET 6, what are the performances?
   photo: nicolas.jpg
-  description: ""
+  description: "When a backend developer has the choice of selecting the language and the framework, will it go for the Minimal APIs in .NET 6 or chose another backend technology (Java, Node.JS)"
   speakers:
     - Nicolas Pierson
 
