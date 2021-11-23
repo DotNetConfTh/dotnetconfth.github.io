@@ -6,3 +6,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.lighthouseci
+lhci
+node_modules
+

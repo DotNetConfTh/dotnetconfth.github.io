@@ -1,0 +1,27 @@
+{
+  "name": "dotnetconfth.github.io",
+  "version": "1.0.0",
+  "description": "## Running",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "jekyll serve --force_polling --livereload",
+    "docker":"docker-compose -f docker-compose.yml up",
+    "test":"lhci autorun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiwanyawit-chawankul/dotnetconfth.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiwanyawit-chawankul/dotnetconfth.github.io/issues"
+  },
+  "homepage": "https://github.com/kaiwanyawit-chawankul/dotnetconfth.github.io#readme",
+  "dependencies": {
+    "@lhci/cli": "^0.8.2"
+  }
+}
