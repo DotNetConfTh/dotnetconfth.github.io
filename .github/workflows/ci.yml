@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - main
+      - add-lighthouse
 jobs:
   lighthouseci:
     runs-on: ubuntu-latest
