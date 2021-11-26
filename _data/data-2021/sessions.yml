@@ -5,12 +5,12 @@
     - Jose Barbosa
 
 - time: "09:30 - 10:00"
-  title: Keynote session
+  title: Enabling DevOps with GitHub
   keynote: keynote session
-  photo: "TBA"
-  description: "TBA"
+  photo: "damian.jpg"
+  description: "GitHub has a huge number of features for enabling effective DevOps in your organization. Come and see how these tools work together to help you deliver better software, faster. We'll look in details at GitHub Codespaces, GitHub Issues, and GitHub Actions, and we'll touch on a few other useful features as we go."
   speakers:
-    - "TBA"
+    - Damian Brady
 
 - time: "10:00 - 10:30"
   title: ".NET MAUI"

@@ -64,7 +64,7 @@ year: "2021"
                     <div class="media-body">
                         <h3 class="heading mb-3">International Business</h3>
                         <p>
-                            We have partnered with organizers around the globe to bring you 93 community virtual events between November 9, 2021 and January 31, 2022.
+                            We have partnered with organizers around the globe to bring you 80 community events between November 9, 2021 and January 31, 2022. Join your fellow developers in your local time zone and language to learn even more about .NET! These events are in-person or virtual depending on local health and safety guidelines.
                         </p>
                     </div>
                 </div>
@@ -171,34 +171,40 @@ year: "2021"
         </div>
         <div class="row">
             <div class="col-md-12 ftco-animate">
-                <div class="carousel-testimony owl-carousel">
-                    {% assign keynotes = site.data.data-2021.speakers | where_exp: "item",
-                    "item.keynote == true" | first %}
-                    {% for speaker in keynotes %} {% include_relative
-                        speaker-list-item.html name=speaker.name position=speaker.position
-                        linkedin=speaker.linkedin github=speaker.github
-                        website=speaker.website youtube=speaker.youtube %}
-                        {% endfor %}
+                <div class="carousel-keynote owl-carousel">
+                    {% assign speakers = site.data.data-2021.speakers%}
+                    {% for speaker in speakers %}
+                        {% if speaker.name contains "Damian" %}
+                            {% include_relative
+                                speaker-list-item.html name=speaker.name position=speaker.position
+                                linkedin=speaker.linkedin github=speaker.github
+                                website=speaker.website youtube=speaker.youtube %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 text-center heading-section ftco-animate">
-                <span class="subheading">Speakers</span>
+                <span class="subheading"></span>
                 <h2 class="mb-4"><span>Our</span> Speakers</h2>
             </div>
         </div>
 
     <div class="row">
             <div class="col-md-12 ftco-animate">
-                <div class="carousel-testimony owl-carousel">
+                <div class="carousel-speaker owl-carousel">
                     {% assign speakers = site.data.data-2021.speakers | where_exp: "item",
                     "item.keynote != true" %}
-                    {% for speaker in speakers %} {% include_relative
-                        speaker-list-item.html name=speaker.name position=speaker.position
-                        linkedin=speaker.linkedin github=speaker.github
-                        website=speaker.website youtube=speaker.youtube %}
-                        {% endfor %}
+                    {% for speaker in speakers %}
+                        {% if speaker.name contains "Damian" %}
+                        {% else %}
+                            {% include_relative
+                            speaker-list-item.html name=speaker.name position=speaker.position
+                            linkedin=speaker.linkedin github=speaker.github
+                            website=speaker.website youtube=speaker.youtube %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -607,7 +613,7 @@ year: "2021"
 <section class="ftco-gallery mt-5">
     <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Schedule</span>
+            <span class="subheading"></span>
             <h2 class="mb-4"><span>Previous </span> Editions</h2>
         </div>
     </div>

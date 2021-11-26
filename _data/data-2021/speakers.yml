@@ -38,10 +38,6 @@
   position: Senior Software Engineer at Mohara
   youtube: StrokeCGM
 
-# - name: Vlad Batushkov
-#   position: Engineering Technical Lead at Agoda
-#   linkedin: https://www.linkedin.com/in/rachanees/
-
 - name: Nicolas Pierson
   position: Solution Architect at Seven Peaks Software
   linkedin: https://www.linkedin.com/in/nicolas-pierson/
@@ -50,7 +46,7 @@
   position: Cloud Solution Architect for Startups at Microsoft Thailand
   linkedin: vorapatnicklamai
 
-# - name: Steve Carroll
-#   position: Partner Director of Development at Microsoft
-#   linkedin:
-#   keynone: true
+- name: Damian Brady
+  position: Senior Dev Advocate at GitHub
+  linkedin:
+  keynone: true
