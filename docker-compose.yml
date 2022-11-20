@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   jekyll:
-    image: jekyll/jekyll
+    image: jekyll/jekyll:4.1.0
     container_name: dotnetconf-site
     environment:
       # JEKYLL_ENV=docker to fix a redirect host issue on Windows 0.0.0.0 and Docker
