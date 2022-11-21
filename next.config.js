@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  // todo: add why this is needed
   images: {
     unoptimized: true,
   },
