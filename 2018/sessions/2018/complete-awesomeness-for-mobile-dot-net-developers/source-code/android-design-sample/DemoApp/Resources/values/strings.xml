@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">DemoApp</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello">A new string</string>
-    <string name="loginHint">Username</string>
-    <string name="passwordHint">Password</string>
-    <string name="loginButton">Login</string>
-</resources>
