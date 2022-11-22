@@ -5,137 +5,66 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import andrewGreeneImage from '@/images/avatars/andrew-greene.jpg'
-import cathleneBurrageImage from '@/images/avatars/cathlene-burrage.jpg'
-import damarisKimuraImage from '@/images/avatars/damaris-kimura.jpg'
-import dianneGuilianelliImage from '@/images/avatars/dianne-guilianelli.jpg'
-import erhartCockrinImage from '@/images/avatars/erhart-cockrin.jpg'
-import giordanoSagucioImage from '@/images/avatars/giordano-sagucio.jpg'
-import gordonSandersonImage from '@/images/avatars/gordon-sanderson.jpg'
-import heatherTerryImage from '@/images/avatars/heather-terry.jpg'
-import ibrahimFraschImage from '@/images/avatars/ibrahim-frasch.jpg'
-import jaquelinIschImage from '@/images/avatars/jaquelin-isch.jpg'
-import kimberlyParsonsImage from '@/images/avatars/kimberly-parsons.jpg'
-import parkerJohnsonImage from '@/images/avatars/parker-johnson.jpg'
-import piersWilkinsImage from '@/images/avatars/piers-wilkins.jpg'
-import richardAstley from '@/images/avatars/richard-astley.jpg'
-import rinaldoBeynonImage from '@/images/avatars/rinaldo-beynon.jpg'
-import ronniCantadoreImage from '@/images/avatars/ronni-cantadore.jpg'
-import stevenMchailImage from '@/images/avatars/steven-mchail.jpg'
-import waylonHydenImage from '@/images/avatars/waylon-hyden.jpg'
+
+import teerasejImage from '@/images/speakers/teerasej.jpg'
+import aaronImage from '@/images/speakers/aaron.jpg'
+import joseImage from '@/images/speakers/jose.jpg'
+import vorapatImage from '@/images/speakers/vorapat.jpg'
+import tbaImage from '@/images/speakers/tba.svg'
 
 const days = [
   {
-    name: 'Opening Day',
+    name: 'Conference Day',
     date: 'December 17',
     dateTime: '2022-12-17',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
-        image: stevenMchailImage,
+        name: 'Teerasej Jiraphatchandej',
+        // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
+        image: teerasejImage,
       },
       {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
-        image: jaquelinIschImage,
+        name: 'Aaron Pongtongmuang',
+        // role: 'Senior Software Engineer at CodeSanook',
+        image: aaronImage,
       },
       {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
-        image: dianneGuilianelliImage,
+        name: 'Jose Barbosa',
+        // role: 'Head of Backend at Seven Peaks Software',
+        image: joseImage,
       },
       {
-        name: 'Ronni Cantadore',
-        role: 'Design Engineer at Weyland-Yutani',
-        image: ronniCantadoreImage,
+        name: 'Vorapat (Guide) Nicklamai',
+        // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
+        image: vorapatImage,
       },
       {
-        name: 'Erhart Cockrin',
-        role: 'Product Lead at Cyberdyne Systems',
-        image: erhartCockrinImage,
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
       {
-        name: 'Parker Johnson',
-        role: 'UI Designer at MomCorp',
-        image: parkerJohnsonImage,
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
     ],
   },
-  // {
-  //   name: 'Speakers & Workshops',
-  //   date: 'April 5',
-  //   dateTime: '2022-04-05',
-  //   speakers: [
-  //     {
-  //       name: 'Damaris Kimura',
-  //       role: 'Senior Engineer at OCP',
-  //       image: damarisKimuraImage,
-  //     },
-  //     {
-  //       name: 'Ibrahim Frasch',
-  //       role: 'Programmer at Umbrella Corp',
-  //       image: ibrahimFraschImage,
-  //     },
-  //     {
-  //       name: 'Cathlene Burrage',
-  //       role: 'Frontend Developer at Buy n Large',
-  //       image: cathleneBurrageImage,
-  //     },
-  //     {
-  //       name: 'Rinaldo Beynon',
-  //       role: 'Data Scientist at Rekall',
-  //       image: rinaldoBeynonImage,
-  //     },
-  //     {
-  //       name: 'Waylon Hyden',
-  //       role: 'DevOps at RDA Corporation',
-  //       image: waylonHydenImage,
-  //     },
-  //     {
-  //       name: 'Giordano Sagucio',
-  //       role: 'Game Developer at Soylent Corp',
-  //       image: giordanoSagucioImage,
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: 'Interviews',
-  //   date: 'April 6',
-  //   dateTime: '2022-04-06',
-  //   speakers: [
-  //     {
-  //       name: 'Andrew Greene',
-  //       role: 'Frontend Developer at Ultratech',
-  //       image: andrewGreeneImage,
-  //     },
-  //     {
-  //       name: 'Heather Terry',
-  //       role: 'Backend Developer at Xanatos Enterprises',
-  //       image: heatherTerryImage,
-  //     },
-  //     {
-  //       name: 'Piers Wilkins',
-  //       role: 'Full stack Developer at BiffCo',
-  //       image: piersWilkinsImage,
-  //     },
-  //     {
-  //       name: 'Gordon Sanderson',
-  //       role: 'Mobile Developer at Cobra Industries',
-  //       image: gordonSandersonImage,
-  //     },
-  //     {
-  //       name: 'Kimberly Parsons',
-  //       role: 'Game Developer at Tyrell Corporation',
-  //       image: kimberlyParsonsImage,
-  //     },
-  //     {
-  //       name: 'Richard Astley',
-  //       role: 'CEO at Roll Out',
-  //       image: richardAstley,
-  //     },
-  //   ],
-  // },
 ]
 
 function ImageClipPaths({ id, ...props }) {
@@ -191,7 +120,7 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Join the .NET Developers Community in Thailand to learn even more about .NET!
+            Join the .NET Developers Community in Thailand to learn more about .NET!
           </p>
         </div>
         <Tab.Group

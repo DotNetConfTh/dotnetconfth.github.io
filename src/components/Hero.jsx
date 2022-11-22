@@ -23,7 +23,7 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">DeceptiConf - </span>.NET Conf Thailand 2022
+            <span className="sr-only">.NET Conf - </span>.NET Conf Thailand 2022
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
@@ -31,7 +31,7 @@ export function Hero() {
             These technologies (but not limited to) include Web, Mobile Desktop, .NET Core, EF Core, C#, IoT, AI, ML, and Mobile.
             </p>
           </div>
-          <Button href="#" className="mt-10 w-full sm:hidden">
+          <Button href="https://dotnetconfth2022.eventbrite.com?ref=site" className="mt-10 w-full sm:hidden">
             Get your tickets
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
