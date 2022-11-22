@@ -25,34 +25,49 @@ const days = [
     dateTime: '2022-12-17',
     speakers: [
       {
-        name: 'Guide Vorapat Nicklamai',
-        role: 'Account Solution Architect at Red Hat Thailand',
-        image: vorapatImage,
-      },
-      {
-        name: 'Joel Dickson',
-        role: 'Director of Engineering at Agoda',
-        image: joelImage,
+        name: 'Teerasej Jiraphatchandej',
+        // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
+        image: teerasejImage,
       },
       {
         name: 'Aaron Pongtongmuang',
-        role: 'Codesanook and .NET Thailand Admin',
+        // role: 'Senior Software Engineer at CodeSanook',
         image: aaronImage,
       },
       {
-        name: 'Gittitat Ekchantawut',
-        role: 'Technical Specialist at MOHARA',
-        image: gittitatImage,
-      },
-      {
         name: 'Jose Barbosa',
-        role: 'Head of Backend at Seven Peaks Software',
+        // role: 'Head of Backend at Seven Peaks Software',
         image: joseImage,
       },
       {
-        name: 'Nakorn Rientrakrunchai',
-        role: 'Technical Lead at T.T. Software Solution Co.,Ltd',
-        image: nakornImage,
+        name: 'Vorapat (Guide) Nicklamai',
+        // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
+        image: vorapatImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
       {
         name: 'Veeravat Jeensuksang',

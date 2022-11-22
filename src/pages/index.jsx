@@ -3,18 +3,11 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-<<<<<<< HEAD
-// import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
 import { Venue } from '@/components/Venue'
-=======
-import { Newsletter } from '@/components/Newsletter'
-import { Schedule } from '@/components/Schedule'
-import { Speakers } from '@/components/Speakers'
-import { Sponsors } from '@/components/Sponsors'
->>>>>>> ff53dfe (Migrate to nextjs)
+// import { Newsletter } from '@/components/Newsletter'
 
 export default function Home() {
   return (
@@ -31,14 +24,9 @@ export default function Home() {
         <Hero />
         <Speakers />
         <Schedule />
-<<<<<<< HEAD
         <Venue />
         <Sponsors />
         {/* <Newsletter /> */}
-=======
-        <Sponsors />
-        <Newsletter />
->>>>>>> ff53dfe (Migrate to nextjs)
       </main>
       <Footer />
     </>
