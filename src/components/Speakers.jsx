@@ -6,10 +6,12 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
-import teerasejImage from '@/images/speakers/teerasej.jpg'
-import aaronImage from '@/images/speakers/aaron.jpg'
-import joseImage from '@/images/speakers/jose.jpg'
 import vorapatImage from '@/images/speakers/vorapat.jpg'
+import joelImage from '@/images/speakers/joel.jpg'
+import aaronImage from '@/images/speakers/aaron.jpg'
+import gittitatImage from '@/images/speakers/gittitat.jpg'
+import joseImage from '@/images/speakers/jose.jpg'
+import nakornImage from '@/images/speakers/nakorn.jpg'
 import tbaImage from '@/images/speakers/tba.svg'
 
 const days = [
@@ -19,29 +21,34 @@ const days = [
     dateTime: '2022-12-17',
     speakers: [
       {
-        name: 'Teerasej Jiraphatchandej',
-        // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
-        image: teerasejImage,
-      },
-      {
-        name: 'Aaron Pongtongmuang',
-        // role: 'Senior Software Engineer at CodeSanook',
-        image: aaronImage,
-      },
-      {
-        name: 'Jose Barbosa',
-        // role: 'Head of Backend at Seven Peaks Software',
-        image: joseImage,
-      },
-      {
-        name: 'Vorapat (Guide) Nicklamai',
-        // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
+        name: 'Guide Vorapat Nicklamai',
+        role: 'Account Solution Architect at Red Hat Thailand',
         image: vorapatImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Joel Dickson',
+        role: 'Director of Engineering at Agoda',
+        image: joelImage,
+      },
+      {
+        name: 'Aaron Pongtongmuang',
+        role: 'Codesanook and .NET Thailand Admin',
+        image: aaronImage,
+      },
+      {
+        name: 'Gittitat Ekchantawut',
+        role: 'Technical Specialist at MOHARA',
+        image: gittitatImage,
+      },
+      {
+        name: 'Jose Barbosa',
+        role: 'Head of Backend at Seven Peaks Software',
+        image: joseImage,
+      },
+      {
+        name: 'Nakorn Rientrakrunchai',
+        role: 'Technical Lead at T.T. Software Solution Co.,Ltd',
+        image: nakornImage,
       },
       {
         name: 'To be announced',
@@ -213,6 +220,17 @@ export function Speakers() {
             ))}
           </Tab.Panels>
         </Tab.Group>
+        <div className="mx-auto max-w-2xl lg:mx-0 mt-5">
+          <h4
+            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+          >
+            Want to be a speaker?
+          </h4>
+          <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
+            Are you interested to join .NET Conf Thailand 2022 as speaker? 
+            <a className='text-blue-600' href='https://forms.gle/yWBn8j7ZGA2a6WpT8' target="_blank" rel="noreferrer"> Please submit our speakers form.</a>
+          </p>
+        </div>
       </Container>
     </section>
   )

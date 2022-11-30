@@ -13,17 +13,35 @@ const schedule = [
     summary:
       'After 2 years of covid we finally meet again in person at True Digital Park for the .NET Conf Thailand 2022. It is also our 5th year of conference.',
     timeSlots: [
+      {
+        name: 'Arrival and registration',
+        // description: 'If you are an early bird',
+        start: '08:00AM',
+        end: '09:00AM',
+      },
       // {
-      //   name: 'Steven McHail',
-      //   description: 'Not so one-time payments',
+      //   name: 'Welcome to the .NET Conf Thailand ',
+      //   // description: 'Not so one-time payments',
       //   start: '9:00AM',
+      //   end: '09:30AM',
+      // },
+      // {
+      //   name: 'Session 1',
+      //   // description: 'The finer print',
+      //   start: '09:30AM',
       //   end: '10:00AM',
       // },
       // {
-      //   name: 'Jaquelin Isch',
-      //   description: 'The finer print',
-      //   start: '10:00AM',
-      //   end: '11:00AM',
+      //   name: 'Session 2',
+      //   // description: 'The finer print',
+      //   start: '09:30AM',
+      //   end: '10:00AM',
+      // },
+      // {
+      //   name: 'Session 3',
+      //   // description: 'The finer print',
+      //   start: '09:30AM',
+      //   end: '10:00AM',
       // },
       // {
       //   name: 'Dianne Guilianelli',
