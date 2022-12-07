@@ -12,6 +12,10 @@ import aaronImage from '@/images/speakers/aaron.jpg'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
 import nakornImage from '@/images/speakers/nakorn.jpg'
+import veeravatImage from '@/images/speakers/veeravat.jpg'
+import dinandImage from '@/images/speakers/dinand.jpg'
+import willImage from '@/images/speakers/will.jpg'
+
 import tbaImage from '@/images/speakers/tba.svg'
 
 const days = [
@@ -51,19 +55,19 @@ const days = [
         image: nakornImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Veeravat Jeensuksang',
+        role: 'Customer Success Account Manager at Microsoft Thailand',
+        image: veeravatImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Dinand Lybaert',
+        role: 'Cloud Solution Architect at Seven Peaks Software',
+        image: dinandImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Will Fuqua',
+        role: 'Head of Engineering at Jetabroad (Thailand) Co. Ltd.',
+        image: willImage,
       },
       {
         name: 'To be announced',
