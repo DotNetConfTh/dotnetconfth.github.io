@@ -216,7 +216,7 @@ export function Schedule() {
             Our schedule is packed with brilliant talks, creative environment and a lot of networking
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            We will provide free lunch and coffe break! Thanks to all sponsors.
+            We will provide free coffe breaks! Thanks to all sponsors.
           </p>
         </div>
       </Container>
