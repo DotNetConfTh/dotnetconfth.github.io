@@ -8,7 +8,7 @@ import { DiamondIcon } from '@/components/DiamondIcon'
 
 import vorapatImage from '@/images/speakers/vorapat.jpg'
 import joelImage from '@/images/speakers/joel.jpg'
-import aaronImage from '@/images/speakers/aaron.jpg'
+import aaronImage from '@/images/speakers/aaron.png'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
 import nakornImage from '@/images/speakers/nakorn.jpg'
