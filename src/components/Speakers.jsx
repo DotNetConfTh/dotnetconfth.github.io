@@ -226,7 +226,7 @@ export function Speakers() {
         </Tab.Group>
         <div className="mx-auto max-w-2xl lg:mx-0 mt-5">
           <h4
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="mt-20 font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
           >
             Want to be a speaker?
           </h4>
