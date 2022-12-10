@@ -6,11 +6,13 @@ import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import sevenPeaks from '@/images/logos/sevenpeaks.png'
-import logoTuple from '@/images/logos/microsoft.png'
+import logoGummyBear from '@/images/logos/gummybear.png'
+import logoMicrosoft from '@/images/logos/microsoft.png'
 
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
-  { name: 'Tuple', logo: logoTuple },
+  { name: 'Microsoft', logo: logoMicrosoft },
+  { name: 'Gummy Bear', logo: logoGummyBear },
   // { name: 'StaticKit', logo: logoStaticKit },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
@@ -36,7 +38,7 @@ export function Sponsors() {
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h4
-            className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl"
+            className="mt-20 mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl"
           >
             Want to be a sponsor?
           </h4>
