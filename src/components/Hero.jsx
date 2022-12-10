@@ -36,10 +36,10 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '10'],
-              ['People Attending', '250'],
+              ['Speakers', '9'],
+              ['People Attending', '100'],
               ['Date', '17/12/2022 9:00 AM'],
-              ['Venue', 'True Digital Park'],
+              ['Venue', 'Glowfish Sathorn'],
               ['Location', 'Bangkok'],
             ].map(([name, value]) => (
               <div key={name}>

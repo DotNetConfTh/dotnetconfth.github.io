@@ -19,60 +19,90 @@ const schedule = [
         start: '08:00AM',
         end: '09:00AM',
       },
-      // {
-      //   name: 'Welcome to the .NET Conf Thailand ',
-      //   // description: 'Not so one-time payments',
-      //   start: '9:00AM',
-      //   end: '09:30AM',
-      // },
-      // {
-      //   name: 'Session 1',
-      //   // description: 'The finer print',
-      //   start: '09:30AM',
-      //   end: '10:00AM',
-      // },
-      // {
-      //   name: 'Session 2',
-      //   // description: 'The finer print',
-      //   start: '09:30AM',
-      //   end: '10:00AM',
-      // },
-      // {
-      //   name: 'Session 3',
-      //   // description: 'The finer print',
-      //   start: '09:30AM',
-      //   end: '10:00AM',
-      // },
-      // {
-      //   name: 'Dianne Guilianelli',
-      //   description: 'Post-purchase blackmail',
-      //   start: '11:00AM',
-      //   end: '12:00PM',
-      // },
-      // {
-      //   name: 'Lunch',
-      //   description: null,
-      //   start: '12:00PM',
-      //   end: '1:00PM',
-      // },
-      // {
-      //   name: 'Ronni Cantadore',
-      //   description: 'Buy or die',
-      //   start: '1:00PM',
-      //   end: '2:00PM',
-      // },
-      // {
-      //   name: 'Erhart Cockrin',
-      //   description: 'In-person cancellation',
-      //   start: '2:00PM',
-      //   end: '3:00PM',
-      // },
-      // {
-      //   name: 'Parker Johnson',
-      //   description: 'The pay/cancel switcheroo',
-      //   start: '3:00PM',
-      //   end: '4:00PM',
-      // },
+      {
+        name: 'Welcome to the .NET Conf Thailand ',
+        // description: 'Not so one-time payments',
+        start: '9:00AM',
+        end: '09:15AM',
+      },
+      {
+        name: "What's new in C# 11",
+        description: 'William Fuqua',
+        start: '09:15AM',
+        end: '10:00AM',
+      },
+      {
+        name: "Containerize and migrate ASP.NET applications to Azure Kubernetes Service",
+        description: 'Veeravat Jeensuksang',
+        start: '10:00AM',
+        end: '10:30AM',
+      },
+      {
+        name: "Coffee break",
+        // description: 'William Fuqua',
+        start: '10:30AM',
+        end: '10:55AM',
+      },
+      {
+        name: "What's New in .NET 7 for Authentication and Authorization",
+        description: 'Nakorn Rientrakrunchai',
+        start: '11:00AM',
+        end: '11:30AM',
+      },
+      {
+        name: 'Building a Paved path for your engineers',
+        description: 'Joel Dickson',
+        start: '11:30AM',
+        end: '12:00PM',
+      },
+      {
+        name: 'Lunch Break & Networking',
+        description: null,
+        start: '12:00PM',
+        end: '2:00PM',
+      },
+      {
+        name: 'Augmented Reality and Machine Learning',
+        description: 'Gittitat Ekchantawut',
+        start: '2:00PM',
+        end: '2:30PM',
+      },
+      {
+        name: 'Deploying .NET Workloads On Red Hat OpenShift',
+        description: 'Guide Vorapat',
+        start: '2:30PM',
+        end: '3:00PM',
+      },
+      {
+        name: "Coffee break",
+        // description: 'William Fuqua',
+        start: '03:00PM',
+        end: '03:25PM',
+      },
+      {
+        name: 'Serverless with .NET',
+        description: 'Dinand Lybaert',
+        start: '3:30PM',
+        end: '4:00PM',
+      },
+      {
+        name: 'State of ASP.NET Core',
+        description: 'Jose Barbosa',
+        start: '4:00PM',
+        end: '4:30PM',
+      },
+      {
+        name: 'Upgrade to EF Core 7 for fast query and better performance',
+        description: 'Aaron Pongtongmuang',
+        start: '4:30PM',
+        end: '5:00PM',
+      },
+      {
+        name: 'Closing',
+        description: '',
+        start: '5:00PM',
+        end: '5:20PM',
+      },
     ],
   },
 ]
@@ -186,7 +216,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            GMT+7
           </p>
         </li>
       ))}

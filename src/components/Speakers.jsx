@@ -69,11 +69,11 @@ const days = [
         role: 'Head of Engineering at Jetabroad (Thailand) Co. Ltd.',
         image: willImage,
       },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
+      // {
+      //   name: 'To be announced',
+      //   role: '',
+      //   image: tbaImage,
+      // },
     ],
   },
 ]
