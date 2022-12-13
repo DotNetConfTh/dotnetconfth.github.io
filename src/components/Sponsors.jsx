@@ -23,12 +23,11 @@ const sponsors = [
 function Sponsor({sponsor}) {
   let imageSize = "";
   if (sponsor.name === "Gummy Bear") {
-    imageSize = "w-1/3"
+    imageSize = "w-5/12"
   } 
 
   return (
     <div
-      key={sponsor.name}
       className={`flex items-center justify-center`}
     >
       <Image src={sponsor.logo} alt={sponsor.name} unoptimized className={imageSize} />
@@ -45,7 +44,7 @@ export function Sponsors() {
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {sponsors.map((sponsor) => 
-            <Sponsor sponsor={sponsor} />
+            <Sponsor key={sponsor.name} sponsor={sponsor} />
           )}
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
