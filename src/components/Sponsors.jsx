@@ -4,20 +4,37 @@ import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import sevenPeaks from '@/images/logos/sevenpeaks.png'
 import logoGummyBear from '@/images/logos/gummybear.png'
 import logoMicrosoft from '@/images/logos/microsoft.png'
+import logoTtSoftware from '@/images/logos/ttsoftware.png'
+import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
   { name: 'Microsoft', logo: logoMicrosoft },
   { name: 'Gummy Bear', logo: logoGummyBear },
-  // { name: 'StaticKit', logo: logoStaticKit },
+  { name: 'TT Software', logo: logoTtSoftware },
+  { name: 'Seven Peaks Software', logo: logoSevenPeaks },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
   // { name: 'Statamic', logo: logoStatamic },
 ]
+
+function Sponsor({sponsor}) {
+  let imageSize = "";
+  if (sponsor.name === "Gummy Bear") {
+    imageSize = "w-1/3"
+  } 
+
+  return (
+    <div
+      key={sponsor.name}
+      className={`flex items-center justify-center`}
+    >
+      <Image src={sponsor.logo} alt={sponsor.name} unoptimized className={imageSize} />
+    </div>
+  )
+}
 
 export function Sponsors() {
   return (
@@ -27,14 +44,9 @@ export function Sponsors() {
           Current sponsorships for our conference.
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          {sponsors.map((sponsor) => (
-            <div
-              key={sponsor.name}
-              className="flex items-center justify-center"
-            >
-              <Image src={sponsor.logo} alt={sponsor.name} unoptimized />
-            </div>
-          ))}
+          {sponsors.map((sponsor) => 
+            <Sponsor sponsor={sponsor} />
+          )}
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h4
