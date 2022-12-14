@@ -11,7 +11,7 @@ const schedule = [
     date: 'December 17',
     dateTime: '2022-12-17',
     summary:
-      'After 2 years of covid we finally meet again in person at True Digital Park for the .NET Conf Thailand 2022. It is also our 5th year of conference.',
+      'After 2 years of covid we finally meet again in person at Glowfish for the .NET Conf Thailand 2022. It is also our 5th year of conference.',
     timeSlots: [
       {
         name: 'Arrival and registration',
@@ -246,7 +246,7 @@ export function Schedule() {
             Our schedule is packed with brilliant talks, creative environment and a lot of networking
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            We will provide free coffe breaks! Thanks to all sponsors.
+            We will provide free coffee breaks! Thanks to all sponsors.
           </p>
         </div>
       </Container>
