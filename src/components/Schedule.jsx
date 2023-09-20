@@ -8,10 +8,10 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'December 17',
-    dateTime: '2022-12-17',
+    date: 'November 25',
+    dateTime: '2023-11-25',
     summary:
-      'After 2 years of covid we finally meet again in person at True Digital Park for the .NET Conf Thailand 2022. It is also our 5th year of conference.',
+      'After 1 year we finally meet again in person at SCBX NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023.',
     timeSlots: [
       // {
       //   name: 'Steven McHail',
@@ -216,8 +216,8 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
         <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
+          {/* <ScheduleTabbed />
+          <ScheduleStatic /> */}
         </Container>
       </div>
     </section>

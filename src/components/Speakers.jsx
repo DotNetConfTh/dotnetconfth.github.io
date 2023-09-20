@@ -21,34 +21,29 @@ import tbaImage from '@/images/speakers/tba.svg'
 const days = [
   {
     name: 'Conference Day',
-    date: 'December 17',
-    dateTime: '2022-12-17',
+    date: 'November 25',
+    dateTime: '2023-11-25',
     speakers: [
-      {
-        name: 'Teerasej Jiraphatchandej',
-        // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
-        image: teerasejImage,
-      },
-      {
-        name: 'Aaron Pongtongmuang',
-        // role: 'Senior Software Engineer at CodeSanook',
-        image: aaronImage,
-      },
-      {
-        name: 'Jose Barbosa',
-        // role: 'Head of Backend at Seven Peaks Software',
-        image: joseImage,
-      },
-      {
-        name: 'Vorapat (Guide) Nicklamai',
-        // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
-        image: vorapatImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
+      // {
+      //   name: 'Teerasej Jiraphatchandej',
+      //   // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
+      //   image: teerasejImage,
+      // },
+      // {
+      //   name: 'Aaron Pongtongmuang',
+      //   // role: 'Senior Software Engineer at CodeSanook',
+      //   image: aaronImage,
+      // },
+      // {
+      //   name: 'Jose Barbosa',
+      //   // role: 'Head of Backend at Seven Peaks Software',
+      //   image: joseImage,
+      // },
+      // {
+      //   name: 'Vorapat (Guide) Nicklamai',
+      //   // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
+      //   image: vorapatImage,
+      // },
       {
         name: 'To be announced',
         role: '',
@@ -70,20 +65,40 @@ const days = [
         image: tbaImage,
       },
       {
-        name: 'Veeravat Jeensuksang',
-        role: 'Customer Success Account Manager at Microsoft Thailand',
-        image: veeravatImage,
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
       {
-        name: 'Dinand Lybaert',
-        role: 'Cloud Solution Architect at Seven Peaks Software',
-        image: dinandImage,
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
       {
-        name: 'Will Fuqua',
-        role: 'Head of Engineering at Jetabroad (Thailand) Co. Ltd.',
-        image: willImage,
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
       },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      // {
+      //   name: 'Veeravat Jeensuksang',
+      //   role: 'Customer Success Account Manager at Microsoft Thailand',
+      //   image: veeravatImage,
+      // },
+      // {
+      //   name: 'Dinand Lybaert',
+      //   role: 'Cloud Solution Architect at Seven Peaks Software',
+      //   image: dinandImage,
+      // },
+      // {
+      //   name: 'Will Fuqua',
+      //   role: 'Head of Engineering at Jetabroad (Thailand) Co. Ltd.',
+      //   image: willImage,
+      // },
       // {
       //   name: 'To be announced',
       //   role: '',
