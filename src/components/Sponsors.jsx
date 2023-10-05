@@ -54,7 +54,7 @@ export function Sponsors() {
             Want to be a sponsor?
           </h4>
           <p className="mt-4 font-display text-center text-xl tracking-tight text-blue-900">
-            <a className='text-blue-600' href='https://drive.google.com/file/d/1JQNHAgSWmWdiM29HMMeMJhrLJqxTlvv9/view?usp=share_link' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a>
+            <a className='text-blue-600' href='https://docs.google.com/presentation/d/10xYTe-KgCWDoKwmTE4v9WEIpnbaY81nmveo_74UlQE0/' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a>
           </p>
         </div>
       </Container>
