@@ -12,8 +12,8 @@ import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
   { name: 'Microsoft', logo: logoMicrosoft },
-  { name: 'Gummy Bear', logo: logoGummyBear },
-  { name: 'TT Software', logo: logoTtSoftware },
+  // { name: 'Gummy Bear', logo: logoGummyBear },
+  // { name: 'TT Software', logo: logoTtSoftware },
   { name: 'Seven Peaks Software', logo: logoSevenPeaks },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
@@ -40,7 +40,7 @@ export function Sponsors() {
     <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
       <Container>
         <h2 className="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">
-          Current sponsorships for our conference.
+          Current sponsors for our conference.
         </h2>
         <div className="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
           {sponsors.map((sponsor) => 
@@ -54,7 +54,7 @@ export function Sponsors() {
             Want to be a sponsor?
           </h4>
           <p className="mt-4 font-display text-center text-xl tracking-tight text-blue-900">
-            <a className='text-blue-600' href='https://drive.google.com/file/d/1JQNHAgSWmWdiM29HMMeMJhrLJqxTlvv9/view?usp=share_link' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a>
+            <a className='text-blue-600' href='https://docs.google.com/presentation/d/10xYTe-KgCWDoKwmTE4v9WEIpnbaY81nmveo_74UlQE0/' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a>
           </p>
         </div>
       </Container>

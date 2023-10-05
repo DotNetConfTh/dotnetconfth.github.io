@@ -8,101 +8,53 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'December 17',
-    dateTime: '2022-12-17',
+    date: 'November 25',
+    dateTime: '2023-11-25',
     summary:
-      'After 2 years of covid we finally meet again in person at Glowfish for the .NET Conf Thailand 2022. It is also our 5th year of conference.',
+      'After 1 year we finally meet again in person at SCBX NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023.',
     timeSlots: [
-      {
-        name: 'Arrival and registration',
-        // description: 'If you are an early bird',
-        start: '08:00 AM',
-        end: '09:00 AM',
-      },
-      {
-        name: 'Welcome to the .NET Conf Thailand ',
-        // description: 'Not so one-time payments',
-        start: '9:00 AM',
-        end: '09:15 AM',
-      },
-      {
-        name: "What's new in C# 11",
-        description: 'William Fuqua',
-        start: '09:15 AM',
-        end: '10:00 AM',
-      },
-      {
-        name: "Containerize and migrate ASP.NET applications to Azure Kubernetes Service",
-        description: 'Veeravat Jeensuksang',
-        start: '10:00 AM',
-        end: '10:30 AM',
-      },
-      {
-        name: "Coffee break",
-        description: null,
-        start: '10:30 AM',
-        end: '10:55 AM',
-      },
-      {
-        name: "What's New in .NET 7 for Authentication and Authorization",
-        description: 'Nakorn Rientrakrunchai',
-        start: '11:00 AM',
-        end: '11:30 AM',
-      },
-      {
-        name: 'Building a Paved path for your engineers',
-        description: 'Joel Dickson',
-        start: '11:30 AM',
-        end: '12:00 PM',
-      },
-      {
-        name: 'Lunch Break & Networking',
-        description: null,
-        start: '12:00 PM',
-        end: '2:00 PM',
-      },
-      {
-        name: 'Augmented Reality and Machine Learning',
-        description: 'Gittitat Ekchantawut',
-        start: '2:00 PM',
-        end: '2:30 PM',
-      },
-      {
-        name: 'Deploying .NET Workloads On Red Hat OpenShift',
-        description: 'Guide Vorapat',
-        start: '2:30 PM',
-        end: '3:00 PM',
-      },
-      {
-        name: "Coffee break",
-        // description: 'William Fuqua',
-        start: '03:00 PM',
-        end: '03:25 PM',
-      },
-      {
-        name: 'Serverless with .NET',
-        description: 'Dinand Lybaert',
-        start: '3:30 PM',
-        end: '4:00 PM',
-      },
-      {
-        name: 'State of ASP.NET Core',
-        description: 'Jose Barbosa',
-        start: '4:00 PM',
-        end: '4:30 PM',
-      },
-      {
-        name: 'Upgrade to EF Core 7 for fast query and better performance',
-        description: 'Aaron Pongtongmuang',
-        start: '4:30 PM',
-        end: '5:00 PM',
-      },
-      {
-        name: 'Closing',
-        description: '',
-        start: '5:00 PM',
-        end: '5:20 PM',
-      },
+      // {
+      //   name: 'Steven McHail',
+      //   description: 'Not so one-time payments',
+      //   start: '9:00AM',
+      //   end: '10:00AM',
+      // },
+      // {
+      //   name: 'Jaquelin Isch',
+      //   description: 'The finer print',
+      //   start: '10:00AM',
+      //   end: '11:00AM',
+      // },
+      // {
+      //   name: 'Dianne Guilianelli',
+      //   description: 'Post-purchase blackmail',
+      //   start: '11:00AM',
+      //   end: '12:00PM',
+      // },
+      // {
+      //   name: 'Lunch',
+      //   description: null,
+      //   start: '12:00PM',
+      //   end: '1:00PM',
+      // },
+      // {
+      //   name: 'Ronni Cantadore',
+      //   description: 'Buy or die',
+      //   start: '1:00PM',
+      //   end: '2:00PM',
+      // },
+      // {
+      //   name: 'Erhart Cockrin',
+      //   description: 'In-person cancellation',
+      //   start: '2:00PM',
+      //   end: '3:00PM',
+      // },
+      // {
+      //   name: 'Parker Johnson',
+      //   description: 'The pay/cancel switcheroo',
+      //   start: '3:00PM',
+      //   end: '4:00PM',
+      // },
     ],
   },
 ]
@@ -264,8 +216,8 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
         <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
+          {/* <ScheduleTabbed />
+          <ScheduleStatic /> */}
         </Container>
       </div>
     </section>
