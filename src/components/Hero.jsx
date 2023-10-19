@@ -38,7 +38,7 @@ export function Hero() {
             {[
               ['Speakers', '8-10'],
               ['People Attending', '175-200'],
-              ['Date', '25/11/2023 9:00 AM'],
+              ['Date', '25/11/2023 10:30 AM'],
               ['Venue', 'SCBX NEXT TECH'],
               ['Location', 'Siam Paragon - Bangkok'],
             ].map(([name, value]) => (
