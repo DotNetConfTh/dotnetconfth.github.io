@@ -36,7 +36,7 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '8-10'],
+              ['Speakers', '11'],
               ['People Attending', '175-200'],
               ['Date', '25/11/2023 10:30 AM'],
               ['Venue', 'SCBX NEXT TECH'],
