@@ -261,8 +261,8 @@ export function Speakers() {
             Want to be a speaker?
           </h4>
           <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
-            Are you interested to join .NET Conf Thailand 2022 as speaker? 
-            <a className='text-blue-600' href='https://forms.gle/yWBn8j7ZGA2a6WpT8' target="_blank" rel="noreferrer"> Please submit our speakers form.</a>
+            Are you interested to join .NET Conf Thailand 2023 as speaker? 
+            <a className='text-blue-600' href='https://forms.office.com/r/KjbtzwVB94' target="_blank" rel="noreferrer"> Please submit our speakers form.</a>
           </p>
         </div>
       </Container>
