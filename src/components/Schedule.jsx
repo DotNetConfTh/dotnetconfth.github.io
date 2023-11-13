@@ -11,7 +11,7 @@ const schedule = [
     date: 'November 25',
     dateTime: '2023-11-25',
     summary:
-      'After 1 year we finally meet again in person at SCBX NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023.',
+      'After 1 year we finally meet again in person at SCB NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023.',
     timeSlots: [
       // {
       //   name: 'Steven McHail',
@@ -198,7 +198,7 @@ export function Schedule() {
             Our schedule is packed with brilliant talks, creative environment and a lot of networking
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            We will provide free coffee breaks! Thanks to all sponsors.
+            .NET Conf Thailand is a free and non-profit conference, the event is possible because of our sponsors, so a big thank you to all sponsors.
           </p>
         </div>
       </Container>

@@ -23,11 +23,11 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">.NET Conf - </span>.NET Conf Thailand 2023
+            <span className="sr-only">.NET Conf 2023 - Thailand</span>.NET Conf 2023 Thailand
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-            Join us for .NET Conf, an event where we will be showcasing many of the advancements and capabilities of .NET. including some of the cool technologies that were recently announced by Microsoft. 
+            .NET Conf Thailand is our local <a className='text-blue-600' target='_blank' href='https://www.dotnetconf.net/' rel="noreferrer">.NET Conf</a> event, an event where we will be showcasing many of the advancements and capabilities of .NET. including some of the cool technologies that were recently announced by Microsoft. 
             These technologies (but not limited to) include Web, Mobile Desktop, .NET Core, EF Core, C#, IoT, AI, ML, and Mobile.
             </p>
           </div>
@@ -37,14 +37,14 @@ export function Hero() {
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', '11'],
-              ['People Attending', '175-200'],
+              ['People Attending', '150+'],
               ['Date', '25/11/2023 10:30 AM'],
-              ['Venue', 'SCBX NEXT TECH'],
+              ['Venue', 'SCB NEXT TECH'],
               ['Location', 'Siam Paragon - Bangkok'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-blue-600">{name}</dt>
-                <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
+                <dd className="mt-0.5 text-xl font-semibold tracking-tight text-blue-900">
                   {value}
                 </dd>
               </div>

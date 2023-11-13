@@ -6,7 +6,9 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
+import saeedImage from '@/images/speakers/saeed.jpg'
 import vorapatImage from '@/images/speakers/vorapat.jpg'
+import teerasej from '@/images/speakers/teerasej.jpg'
 import joelImage from '@/images/speakers/joel.jpg'
 import aaronImage from '@/images/speakers/aaron.png'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
@@ -24,86 +26,56 @@ const days = [
     date: 'November 25',
     dateTime: '2023-11-25',
     speakers: [
-      // {
-      //   name: 'Teerasej Jiraphatchandej',
-      //   // role: 'Microsoft MVP Developer Technologies at Nextflow.in.th',
-      //   image: teerasejImage,
-      // },
-      // {
-      //   name: 'Aaron Pongtongmuang',
-      //   // role: 'Senior Software Engineer at CodeSanook',
-      //   image: aaronImage,
-      // },
-      // {
-      //   name: 'Jose Barbosa',
-      //   // role: 'Head of Backend at Seven Peaks Software',
-      //   image: joseImage,
-      // },
-      // {
-      //   name: 'Vorapat (Guide) Nicklamai',
-      //   // role: 'Cloud Solution Architect for Startups at Microsoft Thailand',
-      //   image: vorapatImage,
-      // },
       {
-        name: 'To be announced',
+        name: 'Veeravat Jeensuksang',
+        role: 'Customer Success Account Manager at Microsoft Thailand',
+        image: veeravatImage,
+      },
+      {
+        name: 'Saeed Esmaeelinejad',
+        role: 'Senior Software Engineer @ Seven Peaks | .NET Enthusiast | 📒 Love to learn',
+        image: saeedImage,
+      },
+      {
+        name: 'Phantip Kokilanon',
         role: '',
         image: tbaImage,
+      },
+      {
+        name: 'Wittawat Karpkrikaew',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'Teerasej Jiraphatchandej',
+        role: 'Microsoft AI MVP',
+        image: teerasej,
+      },
+      {
+        name: 'Theeranit Pongtongmuang',
+        role: 'Independent Computer Software Professional',
+        image: tbaImage,
+      },
+      {
+        name: 'Vorapat (Guide) Nicklamai',
+        role: 'Account Solution Architect at Red Hat Thailand',
+        image: vorapatImage,
+      },
+      {
+        name: 'Gittitat Ekchantawut',
+        role: 'Technical Specialist at MOHARA',
+        image: gittitatImage,
+      },
+      {
+        name: 'Jose Barbosa',
+        role: 'Head of Backend Engineering at Seven Peaks Software',
+        image: joseImage,
       },
       {
         name: 'To be announced',
         role: '',
         image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },
-      // {
-      //   name: 'Veeravat Jeensuksang',
-      //   role: 'Customer Success Account Manager at Microsoft Thailand',
-      //   image: veeravatImage,
-      // },
-      // {
-      //   name: 'Dinand Lybaert',
-      //   role: 'Cloud Solution Architect at Seven Peaks Software',
-      //   image: dinandImage,
-      // },
-      // {
-      //   name: 'Will Fuqua',
-      //   role: 'Head of Engineering at Jetabroad (Thailand) Co. Ltd.',
-      //   image: willImage,
-      // },
-      // {
-      //   name: 'To be announced',
-      //   role: '',
-      //   image: tbaImage,
-      // },
+      }
     ],
   },
 ]
