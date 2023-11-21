@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
+import logoRedHat from '@/images/logos/redhat.png'
 import logoGummyBear from '@/images/logos/gummybear.png'
 import logoMicrosoft from '@/images/logos/microsoft.png'
 import logoTtSoftware from '@/images/logos/ttsoftware.png'
@@ -12,9 +12,10 @@ import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
   { name: 'Microsoft', logo: logoMicrosoft },
-  // { name: 'Gummy Bear', logo: logoGummyBear },
-  // { name: 'TT Software', logo: logoTtSoftware },
+  { name: 'Red Hat', logo: logoRedHat },
   { name: 'Seven Peaks Software', logo: logoSevenPeaks },
+  { name: 'TT Software', logo: logoTtSoftware },
+  { name: 'Gummy Bear', logo: logoGummyBear },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
   // { name: 'Statamic', logo: logoStatamic },

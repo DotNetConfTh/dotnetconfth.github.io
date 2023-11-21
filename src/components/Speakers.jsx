@@ -10,13 +10,15 @@ import saeedImage from '@/images/speakers/saeed.jpg'
 import vorapatImage from '@/images/speakers/vorapat.jpg'
 import teerasej from '@/images/speakers/teerasej.jpg'
 import joelImage from '@/images/speakers/joel.jpg'
+import giorgioImage from '@/images/speakers/giorgio.jpg'
+import giorgioImage2 from '@/images/speakers/giorgio2.jpg'
 import aaronImage from '@/images/speakers/aaron.png'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
 import nakornImage from '@/images/speakers/nakorn.jpg'
 import veeravatImage from '@/images/speakers/veeravat.jpg'
-import dinandImage from '@/images/speakers/dinand.jpg'
-import willImage from '@/images/speakers/will.jpg'
+import phantipImage from '@/images/speakers/phantip.jpg'
+import wittawatImage from '@/images/speakers/wittawat.jpg'
 
 import tbaImage from '@/images/speakers/tba.svg'
 
@@ -38,13 +40,13 @@ const days = [
       },
       {
         name: 'Phantip Kokilanon',
-        role: '',
-        image: tbaImage,
+        role: 'Community Manager at Spark Tech Thailand',
+        image: phantipImage,
       },
       {
         name: 'Wittawat Karpkrikaew',
-        role: '',
-        image: tbaImage,
+        role: 'Microsoft MVP Azure | Microsoft Fanboy | ASP.NET is my life | Long-Term Remote Work',
+        image: wittawatImage,
       },
       {
         name: 'Teerasej Jiraphatchandej',
@@ -70,6 +72,11 @@ const days = [
         name: 'Jose Barbosa',
         role: 'Head of Backend Engineering at Seven Peaks Software',
         image: joseImage,
+      },
+      {
+        name: 'Giorgio Desideri',
+        role: 'Tech Principal Cloud Solution at Seven Peaks Software',
+        image: giorgioImage2,
       },
       {
         name: 'To be announced',

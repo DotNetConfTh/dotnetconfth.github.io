@@ -11,50 +11,116 @@ const schedule = [
     date: 'November 25',
     dateTime: '2023-11-25',
     summary:
-      'After 1 year we finally meet again in person at SCB NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023.',
-    timeSlots: [
-      // {
-      //   name: 'Steven McHail',
-      //   description: 'Not so one-time payments',
-      //   start: '9:00AM',
-      //   end: '10:00AM',
-      // },
-      // {
-      //   name: 'Jaquelin Isch',
-      //   description: 'The finer print',
-      //   start: '10:00AM',
-      //   end: '11:00AM',
-      // },
-      // {
-      //   name: 'Dianne Guilianelli',
-      //   description: 'Post-purchase blackmail',
-      //   start: '11:00AM',
-      //   end: '12:00PM',
-      // },
-      // {
-      //   name: 'Lunch',
-      //   description: null,
-      //   start: '12:00PM',
-      //   end: '1:00PM',
-      // },
-      // {
-      //   name: 'Ronni Cantadore',
-      //   description: 'Buy or die',
-      //   start: '1:00PM',
-      //   end: '2:00PM',
-      // },
-      // {
-      //   name: 'Erhart Cockrin',
-      //   description: 'In-person cancellation',
-      //   start: '2:00PM',
-      //   end: '3:00PM',
-      // },
-      // {
-      //   name: 'Parker Johnson',
-      //   description: 'The pay/cancel switcheroo',
-      //   start: '3:00PM',
-      //   end: '4:00PM',
-      // },
+      'After 1 year, we finally meet again in person at SCB NEXT TECH at Siam Paragon Fl.4 for the .NET Conf Thailand 2023 to celebrate the launch of .NET 8.',
+      timeSlots: [
+        {
+          name: 'Registration and social time',
+          description: 'If you are an early bird',
+          start: '10:00 AM',
+          end: '10:30 AM',
+        },
+        {
+          name: 'Welcome to .NET Conf Thailand 2023',
+          description: '.NET 8 is here!',
+          start: '10:30 AM',
+          end: '10:45 AM',
+        },
+        {
+          name: "Modernize .NET Framework to .NET Core with the .NET Upgrade Assistant",
+          description: 'Veeravat Jeensuksang',
+          start: '10:45 AM',
+          end: '11:15 AM',
+        },
+        {
+          name: "Concurrent Hosted Service in .NET 8",
+          description: 'Saeed Esmaeelinejad',
+          start: '11:15 AM',
+          end: '11:45 AM',
+        },
+        {
+          name: "Introducing Foundational C#",
+          description: 'Phantip Kokilanon',
+          start: '11:45 AM',
+          end: '12:00 PM',
+        },
+        {
+          name: 'Lunch',
+          description: null,
+          start: '12:00 PM',
+          end: '13:00 PM',
+        },
+        {
+          name: 'Social Time',
+          description: null,
+          start: '13:00 PM',
+          end: '13:15 PM',
+        },
+        {
+          name: 'Lightning Talk',
+          description: 'Giorgio Desideri',
+          start: '13:15 PM',
+          end: '13:30 PM',
+        },
+        {
+          name: 'Event-driven .NET apps with Apache Kafka',
+          description: 'Vorapat Nicklamai',
+          start: '13:30 PM',
+          end: '14:00 PM',
+        },
+        {
+          name: 'Sponsored Session',
+          description: 'Red Hat',
+          start: '14:00 PM',
+          end: '14:30 PM',
+        },
+        {
+          name: 'Build your AI plugins for AI era with Semantic Kernel',
+          description: 'Teerasej Jiraphatchandej',
+          start: '14:30 PM',
+          end: '15:00 PM',
+        },
+        {
+          name: "Break",
+          description: null,
+          start: '15:00 PM',
+          end: '15:15 PM',
+        },
+        {
+          name: 'Clean Architecture with .NET and Microsoft Azuress',
+          description: 'Wittawat Karpkrikaew',
+          start: '15:15 PM',
+          end: '15:45 PM',
+        },
+        {
+          name: 'Game Development with Generative AI (Unity + DALL-E)',
+          description: 'Gittitat Ekchantawut',
+          start: '15:45 PM',
+          end: '16:15 PM',
+        },
+        {
+          name: "What's new in Entity Framework Core 8",
+          description: 'Theeranit Pongtongmuang',
+          start: '16:15 PM',
+          end: '16:45 PM',
+        },
+        {
+          name: "TBA",
+          description: null,
+          start: '16:45 PM',
+          end: '17:15 PM',
+        },
+        {
+          name: 'Closing + group photo',
+          description: "Jose Barbosa and Giorgio Desideri",
+          start: '17:15 PM',
+          end: '17:30 PM',
+        },
+        {
+          name: 'Social Time',
+          description: null,
+          start: '17:30 PM',
+          end: '18:00 PM',
+        },
     ],
   },
 ]
@@ -216,8 +282,8 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
         <Container className="relative">
-          {/* <ScheduleTabbed />
-          <ScheduleStatic /> */}
+          <ScheduleTabbed />
+          <ScheduleStatic />
         </Container>
       </div>
     </section>
