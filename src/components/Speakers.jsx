@@ -8,14 +8,13 @@ import { DiamondIcon } from '@/components/DiamondIcon'
 
 import saeedImage from '@/images/speakers/saeed.jpg'
 import vorapatImage from '@/images/speakers/vorapat.jpg'
+import chatchaiImage from '@/images/speakers/chatchai1.jpg'
 import teerasej from '@/images/speakers/teerasej.jpg'
-import joelImage from '@/images/speakers/joel.jpg'
-import giorgioImage from '@/images/speakers/giorgio.jpg'
 import giorgioImage2 from '@/images/speakers/giorgio2.jpg'
 import aaronImage from '@/images/speakers/aaron.png'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
-import nakornImage from '@/images/speakers/nakorn.jpg'
+import nok from '@/images/speakers/nok.jpg'
 import veeravatImage from '@/images/speakers/veeravat.jpg'
 import phantipImage from '@/images/speakers/phantip.jpg'
 import wittawatImage from '@/images/speakers/wittawat.jpg'
@@ -44,6 +43,16 @@ const days = [
         image: phantipImage,
       },
       {
+        name: 'Vorapat (Guide) Nicklamai',
+        role: 'Account Solution Architect at Red Hat Thailand',
+        image: vorapatImage,
+      },
+      {
+        name: 'Chatchai Kongmanee',
+        role: 'Specialist Solution Architect at Red Hat Thailand',
+        image: chatchaiImage,
+      },
+      {
         name: 'Wittawat Karpkrikaew',
         role: 'Microsoft MVP Azure | Microsoft Fanboy | ASP.NET is my life | Long-Term Remote Work',
         image: wittawatImage,
@@ -55,18 +64,19 @@ const days = [
       },
       {
         name: 'Theeranit Pongtongmuang',
-        role: 'Independent Computer Software Professional',
-        image: tbaImage,
+        role: 'Codesanook and .NET Thailand Admin',
+        image: aaronImage,
       },
-      {
-        name: 'Vorapat (Guide) Nicklamai',
-        role: 'Account Solution Architect at Red Hat Thailand',
-        image: vorapatImage,
-      },
+      
       {
         name: 'Gittitat Ekchantawut',
         role: 'Technical Specialist at MOHARA',
         image: gittitatImage,
+      },
+      {
+        name: 'Nattapong Nunpan',
+        role: 'Software Engineer Consultant at United Nations',
+        image: nok,
       },
       {
         name: 'Jose Barbosa',
@@ -78,11 +88,11 @@ const days = [
         role: 'Tech Principal Cloud Solution at Seven Peaks Software',
         image: giorgioImage2,
       },
-      {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      }
+      // {
+      //   name: 'To be announced',
+      //   role: '',
+      //   image: tbaImage,
+      // }
     ],
   },
 ]

@@ -104,8 +104,8 @@ const schedule = [
           end: '16:45 PM',
         },
         {
-          name: "TBA",
-          description: null,
+          name: "Auth and Identity in ASP.NET Core 8",
+          description: 'Nattapong Nunpan',
           start: '16:45 PM',
           end: '17:15 PM',
         },
