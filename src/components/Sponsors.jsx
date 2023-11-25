@@ -1,8 +1,6 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
 import logoRedHat from '@/images/logos/redhat1.png'
 import logoGummyBear from '@/images/logos/gummybear.png'
 import logoMicrosoft from '@/images/logos/microsoft.png'

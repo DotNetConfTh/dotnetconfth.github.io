@@ -68,8 +68,8 @@ const schedule = [
           end: '14:00 PM',
         },
         {
-          name: 'Sponsored Session',
-          description: 'Red Hat',
+          name: '.NET Observability for Cloud-Native Application',
+          description: 'Chatchai Kongmanee',
           start: '14:00 PM',
           end: '14:30 PM',
         },

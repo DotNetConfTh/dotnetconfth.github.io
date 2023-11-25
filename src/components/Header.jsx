@@ -16,7 +16,7 @@ export function Header() {
               <time dateTime="2023-11-25">25 of November, 2023</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <a href='https://maps.app.goo.gl/Wp3EYnYbuv7s3qB26' target="_blank" rel="noreferrer">SCB NEXT TECH at Siam Paragon Fl.4 - Bangkok</a>
+            <a href='https://maps.app.goo.gl/Wp3EYnYbuv7s3qB26' target="_blank" rel="noreferrer">SCBX NEXT TECH at Siam Paragon Fl.4 - Bangkok</a>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">

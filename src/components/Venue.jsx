@@ -32,7 +32,7 @@ export function Venue() {
             This year the conference will be hosted at:
           </p>
           <p className="mt-3 font-display text-2xl tracking-tight text-blue-900">
-            SCB NEXT TECH at Siam Paragon 4th floor.
+            SCBX NEXT TECH at Siam Paragon 4th floor.
           </p>
           <p className="mt-3">
             SCB NEXT TECH is located at 4th floor at Siam Paragon you can get there🚆 Via BTS Siam.

@@ -39,7 +39,7 @@ export function Hero() {
               ['Speakers', '11'],
               ['People Attending', '150+'],
               ['Date', '25/11/2023 10:30 AM'],
-              ['Venue', 'SCB NEXT TECH'],
+              ['Venue', 'SCBX NEXT TECH'],
               ['Location', 'Siam Paragon - Bangkok'],
             ].map(([name, value]) => (
               <div key={name}>
