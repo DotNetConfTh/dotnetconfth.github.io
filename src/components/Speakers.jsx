@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react'
 import Image from 'next/image'
 import { Tab } from '@headlessui/react'
+import { Button } from '@/components/Button'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
@@ -24,75 +25,96 @@ import tbaImage from '@/images/speakers/tba.svg'
 const days = [
   {
     name: 'Conference Day',
-    date: 'November 25',
-    dateTime: '2023-11-25',
+    date: 'November 23',
+    dateTime: '2024-11-23',
     speakers: [
-      {
-        name: 'Veeravat Jeensuksang',
-        role: 'Customer Success Account Manager at Microsoft Thailand',
-        image: veeravatImage,
-      },
-      {
-        name: 'Saeed Esmaeelinejad',
-        role: 'Senior Software Engineer @ Seven Peaks | .NET Enthusiast | 📒 Love to learn',
-        image: saeedImage,
-      },
-      {
-        name: 'Phantip Kokilanon',
-        role: 'Community Manager at Spark Tech Thailand',
-        image: phantipImage,
-      },
-      {
-        name: 'Vorapat (Guide) Nicklamai',
-        role: 'Account Solution Architect at Red Hat Thailand',
-        image: vorapatImage,
-      },
-      {
-        name: 'Chatchai Kongmanee',
-        role: 'Specialist Solution Architect at Red Hat Thailand',
-        image: chatchaiImage,
-      },
-      {
-        name: 'Wittawat Karpkrikaew',
-        role: 'Microsoft MVP Azure | Microsoft Fanboy | ASP.NET is my life | Long-Term Remote Work',
-        image: wittawatImage,
-      },
-      {
-        name: 'Teerasej Jiraphatchandej',
-        role: 'Microsoft AI MVP',
-        image: teerasej,
-      },
-      {
-        name: 'Theeranit Pongtongmuang',
-        role: 'Codesanook and .NET Thailand Admin',
-        image: aaronImage,
-      },
-      
-      {
-        name: 'Gittitat Ekchantawut',
-        role: 'Technical Specialist at MOHARA',
-        image: gittitatImage,
-      },
-      {
-        name: 'Nattapong Nunpan',
-        role: 'Software Engineer Consultant at United Nations',
-        image: nok,
-      },
-      {
-        name: 'Jose Barbosa',
-        role: 'Head of Backend Engineering at Seven Peaks Software',
-        image: joseImage,
-      },
-      {
-        name: 'Giorgio Desideri',
-        role: 'Tech Principal Cloud Solution at Seven Peaks Software',
-        image: giorgioImage2,
-      },
       // {
-      //   name: 'To be announced',
-      //   role: '',
-      //   image: tbaImage,
-      // }
+      //   name: 'Veeravat Jeensuksang',
+      //   role: 'Customer Success Account Manager at Microsoft Thailand',
+      //   image: veeravatImage,
+      // },
+      // {
+      //   name: 'Saeed Esmaeelinejad',
+      //   role: 'Senior Software Engineer @ Seven Peaks | .NET Enthusiast | 📒 Love to learn',
+      //   image: saeedImage,
+      // },
+      // {
+      //   name: 'Phantip Kokilanon',
+      //   role: 'Community Manager at Spark Tech Thailand',
+      //   image: phantipImage,
+      // },
+      // {
+      //   name: 'Vorapat (Guide) Nicklamai',
+      //   role: 'Account Solution Architect at Red Hat Thailand',
+      //   image: vorapatImage,
+      // },
+      // {
+      //   name: 'Chatchai Kongmanee',
+      //   role: 'Specialist Solution Architect at Red Hat Thailand',
+      //   image: chatchaiImage,
+      // },
+      // {
+      //   name: 'Wittawat Karpkrikaew',
+      //   role: 'Microsoft MVP Azure | Microsoft Fanboy | ASP.NET is my life | Long-Term Remote Work',
+      //   image: wittawatImage,
+      // },
+      // {
+      //   name: 'Teerasej Jiraphatchandej',
+      //   role: 'Microsoft AI MVP',
+      //   image: teerasej,
+      // },
+      // {
+      //   name: 'Theeranit Pongtongmuang',
+      //   role: 'Codesanook and .NET Thailand Admin',
+      //   image: aaronImage,
+      // },
+      
+      // {
+      //   name: 'Gittitat Ekchantawut',
+      //   role: 'Technical Specialist at MOHARA',
+      //   image: gittitatImage,
+      // },
+      // {
+      //   name: 'Nattapong Nunpan',
+      //   role: 'Software Engineer Consultant at United Nations',
+      //   image: nok,
+      // },
+      // {
+      //   name: 'Jose Barbosa',
+      //   role: 'Head of Backend Engineering at Seven Peaks Software',
+      //   image: joseImage,
+      // },
+      // {
+      //   name: 'Giorgio Desideri',
+      //   role: 'Tech Principal Cloud Solution at Seven Peaks Software',
+      //   image: giorgioImage2,
+      // },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },{
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },{
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },{
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },{
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
     ],
   },
 ]
@@ -250,8 +272,9 @@ export function Speakers() {
             Want to be a speaker?
           </h4>
           <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
-            Are you interested to join .NET Conf Thailand 2023 as speaker? 
-            <a className='text-blue-600' href='https://forms.office.com/r/KjbtzwVB94' target="_blank" rel="noreferrer"> Please submit our speakers form.</a>
+            Are you interested to be speaker a .NET Conf Thailand 2024? Please submit the speaker form. 
+            {/* <Button target="_blank" rel="noreferrer">Speaker Form.</Button> */}
+            {/* <Button href="https://dotnetconfth2024.eventbrite.com?ref=site" target="_blank" rel="noreferrer">Speaker Form.</Button> */}
           </p>
         </div>
       </Container>

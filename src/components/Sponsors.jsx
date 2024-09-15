@@ -4,16 +4,18 @@ import { Container } from '@/components/Container'
 import logoRedHat from '@/images/logos/redhat1.png'
 import logoGummyBear from '@/images/logos/gummybear.png'
 import logoMicrosoft from '@/images/logos/microsoft.png'
+import logoJetBrains from '@/images/logos/jetbrains.png'
 import logoTtSoftware from '@/images/logos/ttsoftware.png'
 import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
   { name: 'Microsoft', logo: logoMicrosoft },
-  { name: 'Red Hat', logo: logoRedHat },
+  { name: 'JetBrains', logo: logoJetBrains },
+  // { name: 'Red Hat', logo: logoRedHat },
   { name: 'Seven Peaks Software', logo: logoSevenPeaks },
-  { name: 'TT Software', logo: logoTtSoftware },
-  { name: 'Gummy Bear', logo: logoGummyBear },
+  // { name: 'TT Software', logo: logoTtSoftware },
+  // { name: 'Gummy Bear', logo: logoGummyBear },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
   // { name: 'Statamic', logo: logoStatamic },
@@ -53,7 +55,8 @@ export function Sponsors() {
             Want to be a sponsor?
           </h4>
           <p className="mt-4 font-display text-center text-xl tracking-tight text-blue-900">
-            <a className='text-blue-600' href='https://docs.google.com/presentation/d/10xYTe-KgCWDoKwmTE4v9WEIpnbaY81nmveo_74UlQE0/' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a>
+            <span className='text-blue-600' target="_blank" rel="noreferrer"> View our Sponsorship Proposal.</span>
+            {/* <a className='text-blue-600' href='https://docs.google.com/presentation/d/10xYTe-KgCWDoKwmTE4v9WEIpnbaY81nmveo_74UlQE0/' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a> */}
           </p>
         </div>
       </Container>
