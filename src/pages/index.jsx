@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>.NET Conf 2023 - Thailand</title>
+        <title>.NET Conf 2024 - Thailand</title>
         <meta name="description"
           content=".NET Conf Thailand - Learn about DevOps, Cloud and .NET" />
         <meta name="keywords" content="dotnet, .NET, conference, Thailand" />
@@ -23,8 +23,8 @@ export default function Home() {
       <main>
         <Hero />
         <Speakers />
-        <Schedule />
-        <Venue />
+        {/* <Schedule /> */}
+        {/* <Venue /> */}
         <Sponsors />
         {/* <Newsletter /> */}
       </main>
