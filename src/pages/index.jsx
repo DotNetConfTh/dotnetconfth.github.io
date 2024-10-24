@@ -24,7 +24,7 @@ export default function Home() {
         <Hero />
         <Speakers />
         {/* <Schedule /> */}
-        {/* <Venue /> */}
+        <Venue />
         <Sponsors />
         {/* <Newsletter /> */}
       </main>

@@ -32,16 +32,15 @@ export function Venue() {
             This year the conference will be hosted at:
           </p>
           <p className="mt-3 font-display text-2xl tracking-tight text-blue-900">
-            SCBX NEXT TECH at Siam Paragon 4th floor.
+            Seven Peaks Software
           </p>
           <p className="mt-3">
-            SCB NEXT TECH is located at 4th floor at Siam Paragon you can get there🚆 Via BTS Siam.
-            </p>
+          </p>
           <address className="mt-3">
-            <a href="https://maps.app.goo.gl/Wp3EYnYbuv7s3qB26" target="_blank" rel="noreferrer">Address: Siam Paragon - 991/1 Rama I Rd, Rong Muang, Pathum Wan, Bangkok 10330</a>
+            <a href="https://maps.app.goo.gl/so6HqiA4S9ujQJuj6" target="_blank" rel="noreferrer">Address: The PARQ - 5th floor, East Wing, The PARQ, 88 Ratchadaphisek Rd, Bangkok 10110</a>
           </address>
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.546947646624!2d100.53505179999999!3d13.745856999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f885fd54cc7%3A0xf9dacc671fef10b5!2sSCB%20NEXT%20TECH!5e0!3m2!1sen!2sth!4v1699886024790!5m2!1sen!2sth" height="450" width="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15503.818089555924!2d100.5588518!3d13.7212032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29edcf8a9dcf5%3A0xcf0d1a437c55d078!2sSeven%20Peaks%20Software%20(Thailand)!5e0!3m2!1sen!2sth!4v1729773779216!5m2!1sen!2sth" height="450" width="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </Container>

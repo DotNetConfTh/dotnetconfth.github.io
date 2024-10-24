@@ -31,7 +31,7 @@ export function Hero() {
             These technologies (but not limited to) include Web, Mobile Desktop, .NET Core, EF Core, C#, IoT, AI, ML, and Mobile.
             </p>
           </div>
-          <Button href="https://dotnetconfth2024.eventbrite.com?ref=site" className="mt-10 w-full sm:hidden">
+          <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" className="mt-10 w-full sm:hidden">
             Get your tickets
           </Button>
           {/* <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">

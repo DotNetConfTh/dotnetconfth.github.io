@@ -16,12 +16,11 @@ export function Header() {
               <time dateTime="2024-11-25">23 of November, 2024</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <span target="_blank" rel="noreferrer">Bangkok</span>
-            {/* <a href='https://maps.app.goo.gl/Wp3EYnYbuv7s3qB26' target="_blank" rel="noreferrer">SCBX NEXT TECH at Siam Paragon Fl.4 - Bangkok</a> */}
+            <a href='https://maps.app.goo.gl/so6HqiA4S9ujQJuj6' target="_blank" rel="noreferrer">Seven Peaks Software - Bangkok</a>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          {/* <Button href="https://dotnetconfth2024.eventbrite.com?ref=site" target="_blank" rel="noreferrer" >Get your tickets</Button> */}
+          <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" target="_blank" rel="noreferrer">Get your tickets</Button>
         </div>
       </Container>
     </header>

@@ -272,9 +272,11 @@ export function Speakers() {
             Want to be a speaker?
           </h4>
           <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
-            Are you interested to be speaker a .NET Conf Thailand 2024? Please submit the speaker form. 
-            {/* <Button target="_blank" rel="noreferrer">Speaker Form.</Button> */}
-            {/* <Button href="https://dotnetconfth2024.eventbrite.com?ref=site" target="_blank" rel="noreferrer">Speaker Form.</Button> */}
+            Are you interested to be speaker a .NET Conf Thailand 2024? 
+            {/* <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" target="_blank" rel="noreferrer">Speaker Form.</Button> */}
+          </p>
+          <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
+          Please submit the speaker form. <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" target="_blank" rel="noreferrer">Speaker Form</Button>
           </p>
         </div>
       </Container>

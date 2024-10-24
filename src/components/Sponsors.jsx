@@ -7,6 +7,7 @@ import logoMicrosoft from '@/images/logos/microsoft.png'
 import logoJetBrains from '@/images/logos/jetbrains.png'
 import logoTtSoftware from '@/images/logos/ttsoftware.png'
 import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
+import { Button } from './Button'
 
 const sponsors = [
   // { name: 'Seven Peaks', logo: sevenPeaks },
@@ -55,8 +56,7 @@ export function Sponsors() {
             Want to be a sponsor?
           </h4>
           <p className="mt-4 font-display text-center text-xl tracking-tight text-blue-900">
-            <span className='text-blue-600' target="_blank" rel="noreferrer"> View our Sponsorship Proposal.</span>
-            {/* <a className='text-blue-600' href='https://docs.google.com/presentation/d/10xYTe-KgCWDoKwmTE4v9WEIpnbaY81nmveo_74UlQE0/' target="_blank" rel="noreferrer"> Click to view our Sponsorship Proposal.</a> */}
+            <Button href="https://docs.google.com/presentation/d/e/2PACX-1vRwBnErXI-WD-eypFHDVhZfZyEZt6f759mT72PBKJvCXNiCQcVE4aRImCW--T9kIZJzHo6UC09wGHJP/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noreferrer">View our Sponsorship Proposal</Button>
           </p>
         </div>
       </Container>
