@@ -7,18 +7,18 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 
-import saeedImage from '@/images/speakers/saeed.jpg'
-import vorapatImage from '@/images/speakers/vorapat.jpg'
-import chatchaiImage from '@/images/speakers/chatchai1.jpg'
+import joelImage from '@/images/speakers/joel.jpg'
+import surasukImage from '@/images/speakers/surasuk.jpg'
+import giorgioImage from '@/images/speakers/giorgio.jpg'
 import teerasej from '@/images/speakers/teerasej.jpg'
-import giorgioImage2 from '@/images/speakers/giorgio2.jpg'
-import aaronImage from '@/images/speakers/aaron.png'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
 import nok from '@/images/speakers/nok.jpg'
 import veeravatImage from '@/images/speakers/veeravat.jpg'
-import phantipImage from '@/images/speakers/phantip.jpg'
-import wittawatImage from '@/images/speakers/wittawat.jpg'
+import akkaponImage from '@/images/speakers/akkapon.jpg'
+import vorapatImage from '@/images/speakers/vorapat.jpg'
+import charunthonImage from '@/images/speakers/charunthon.png'
+import pooonsiriImage from '@/images/speakers/pooonsiri.jpg'
 
 import tbaImage from '@/images/speakers/tba.svg'
 
@@ -28,93 +28,71 @@ const days = [
     date: 'November 23',
     dateTime: '2024-11-23',
     speakers: [
-      // {
-      //   name: 'Veeravat Jeensuksang',
-      //   role: 'Customer Success Account Manager at Microsoft Thailand',
-      //   image: veeravatImage,
-      // },
-      // {
-      //   name: 'Saeed Esmaeelinejad',
-      //   role: 'Senior Software Engineer @ Seven Peaks | .NET Enthusiast | 📒 Love to learn',
-      //   image: saeedImage,
-      // },
-      // {
-      //   name: 'Phantip Kokilanon',
-      //   role: 'Community Manager at Spark Tech Thailand',
-      //   image: phantipImage,
-      // },
-      // {
-      //   name: 'Vorapat (Guide) Nicklamai',
-      //   role: 'Account Solution Architect at Red Hat Thailand',
-      //   image: vorapatImage,
-      // },
-      // {
-      //   name: 'Chatchai Kongmanee',
-      //   role: 'Specialist Solution Architect at Red Hat Thailand',
-      //   image: chatchaiImage,
-      // },
-      // {
-      //   name: 'Wittawat Karpkrikaew',
-      //   role: 'Microsoft MVP Azure | Microsoft Fanboy | ASP.NET is my life | Long-Term Remote Work',
-      //   image: wittawatImage,
-      // },
-      // {
-      //   name: 'Teerasej Jiraphatchandej',
-      //   role: 'Microsoft AI MVP',
-      //   image: teerasej,
-      // },
-      // {
-      //   name: 'Theeranit Pongtongmuang',
-      //   role: 'Codesanook and .NET Thailand Admin',
-      //   image: aaronImage,
-      // },
-      
-      // {
-      //   name: 'Gittitat Ekchantawut',
-      //   role: 'Technical Specialist at MOHARA',
-      //   image: gittitatImage,
-      // },
-      // {
-      //   name: 'Nattapong Nunpan',
-      //   role: 'Software Engineer Consultant at United Nations',
-      //   image: nok,
-      // },
-      // {
-      //   name: 'Jose Barbosa',
-      //   role: 'Head of Backend Engineering at Seven Peaks Software',
-      //   image: joseImage,
-      // },
-      // {
-      //   name: 'Giorgio Desideri',
-      //   role: 'Tech Principal Cloud Solution at Seven Peaks Software',
-      //   image: giorgioImage2,
-      // },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Joel Dickson',
+        role: 'Director at Agoda',
+        image: joelImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },{
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },{
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },{
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
-      },{
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Surasuk Oakkharaamonphong',
+        role: 'Director and Technical Coach at INFINITAS by Krungthai',
+        image: surasukImage,
       },
+      {
+        name: 'Giorgio Desideri',
+        role: 'Principal Solutions Architect at Seven Peaks Software',
+        image: giorgioImage,
+      },
+      {
+        name: 'Nattapong (Nok) Nunpan',
+        role: 'Software Engineer Consultant at United Nations',
+        image: nok,
+      },
+      {
+        name: 'Gittitat Ekchantawut',
+        role: 'Technical Specialist at MOHARA',
+        image: gittitatImage,
+      },
+      {
+        name: 'Akkapon Somjai',
+        role: 'Technical Lead at Palo IT Thailand',
+        image: akkaponImage,
+      },
+      {
+        name: 'Charunthon (Boat) Limseelo',
+        role: 'Microsoft Learn Student Ambassadors',
+        image: charunthonImage,
+      },
+      {
+        name: 'Teerasej Jiraphatchandej',
+        role: 'Microsoft MVP AI',
+        image: teerasej,
+      },
+      {
+        name: 'Veeravat Jeensuksang',
+        role: 'Customer Success Account Manager at Microsoft Thailand',
+        image: veeravatImage,
+      },
+      {
+        name: 'Vorapat (Guide) Nicklamai',
+        role: 'Account Solution Architect at Red Hat Thailand',
+        image: vorapatImage,
+      },
+      {
+        name: 'Poonsiri Jailungka',
+        role: 'Researcher - Robotics Engineer at Institute of Field Robotics (FIBO) KMUTT',
+        image: pooonsiriImage,
+      },
+      {
+        name: 'Jose Barbosa',
+        role: 'Head of Engineering at Seven Peaks Software',
+        image: joseImage,
+      },
+      // {
+      //   name: 'To be announced',
+      //   role: '',
+      //   image: tbaImage,
+      // },
     ],
   },
 ]
