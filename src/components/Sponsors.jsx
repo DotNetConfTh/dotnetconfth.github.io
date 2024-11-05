@@ -15,7 +15,7 @@ const sponsors = [
   { name: 'JetBrains', logo: logoJetBrains },
   // { name: 'Red Hat', logo: logoRedHat },
   { name: 'Seven Peaks Software', logo: logoSevenPeaks },
-  // { name: 'TT Software', logo: logoTtSoftware },
+  { name: 'TT Software', logo: logoTtSoftware },
   // { name: 'Gummy Bear', logo: logoGummyBear },
   // { name: 'Mirage', logo: logoMirage },
   // { name: 'Laravel', logo: logoLaravel },
