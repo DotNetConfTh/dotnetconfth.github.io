@@ -23,7 +23,7 @@ export default function Home() {
       <main>
         <Hero />
         <Speakers />
-        {/* <Schedule /> */}
+        <Schedule />
         <Venue />
         <Sponsors />
         {/* <Newsletter /> */}
