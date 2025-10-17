@@ -9,17 +9,18 @@ import { DiamondIcon } from '@/components/DiamondIcon'
 
 import joelImage from '@/images/speakers/joel.jpg'
 import surasukImage from '@/images/speakers/surasuk.jpg'
+import wittawatImage from '@/images/speakers/wittawat.jpg'
 import giorgioImage from '@/images/speakers/giorgio.jpg'
 import teerasej from '@/images/speakers/teerasej.jpg'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.jpg'
-import nok from '@/images/speakers/nok.jpg'
+import nokImage from '@/images/speakers/nok.jpg'
 import veeravatImage from '@/images/speakers/veeravat.jpg'
 import akkaponImage from '@/images/speakers/akkapon.jpg'
+import yanyongImage from '@/images/speakers/yanyong.jpg'
 import vorapatImage from '@/images/speakers/vorapat.jpg'
 import charunthonImage from '@/images/speakers/charunthon.png'
 import pooonsiriImage from '@/images/speakers/pooonsiri.jpg'
-
 import tbaImage from '@/images/speakers/tba.svg'
 
 const days = [
@@ -29,9 +30,9 @@ const days = [
     dateTime: '2024-11-23',
     speakers: [
       {
-        name: 'Joel Dickson',
-        role: 'Director at Agoda',
-        image: joelImage,
+        name: 'Veeravat Jeensuksang',
+        role: 'Customer Success Account Manager at Microsoft Thailand',
+        image: veeravatImage,
       },
       {
         name: 'Surasuk Oakkharaamonphong',
@@ -39,14 +40,14 @@ const days = [
         image: surasukImage,
       },
       {
-        name: 'Giorgio Desideri',
-        role: 'Principal Solutions Architect at Seven Peaks Software',
-        image: giorgioImage,
+        name: 'Wittawat Karpkrikaew',
+        role: 'CTO at T. T. Software Solution',
+        image: wittawatImage,
       },
       {
         name: 'Nattapong (Nok) Nunpan',
         role: 'Software Engineer Consultant at United Nations',
-        image: nok,
+        image: nokImage,
       },
       {
         name: 'Gittitat Ekchantawut',
@@ -59,6 +60,11 @@ const days = [
         image: akkaponImage,
       },
       {
+        name: 'Yanyong Prommajarn',
+        role: 'Full Stack Developer at PALO IT Thailand',
+        image: yanyongImage,
+      },
+      {
         name: 'Charunthon (Boat) Limseelo',
         role: 'Microsoft Learn Student Ambassadors',
         image: charunthonImage,
@@ -69,9 +75,9 @@ const days = [
         image: teerasej,
       },
       {
-        name: 'Veeravat Jeensuksang',
-        role: 'Customer Success Account Manager at Microsoft Thailand',
-        image: veeravatImage,
+        name: 'Joel Dickson',
+        role: 'Director at Agoda',
+        image: joelImage,
       },
       {
         name: 'Vorapat (Guide) Nicklamai',
@@ -82,6 +88,11 @@ const days = [
         name: 'Poonsiri Jailungka',
         role: 'Researcher - Robotics Engineer at Institute of Field Robotics (FIBO) KMUTT',
         image: pooonsiriImage,
+      },
+      {
+        name: 'Giorgio Desideri',
+        role: 'Principal Solutions Architect at Seven Peaks Software',
+        image: giorgioImage,
       },
       {
         name: 'Jose Barbosa',

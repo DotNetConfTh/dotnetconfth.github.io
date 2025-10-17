@@ -15,7 +15,7 @@ const schedule = [
       timeSlots: [
         {
           name: 'Registration and social time',
-          description: 'If you are an early bird',
+          description: null,
           start: '09:30 AM',
           end: '10:00 AM',
         },
