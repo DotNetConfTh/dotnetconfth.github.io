@@ -128,7 +128,7 @@ export function Team() {
             Join Our Team!
           </h3>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            Want to be part of making .NET Conf Thailand 2025 amazing? We're looking for passionate volunteers to help with various aspects of the event. Join our team and contribute to the community!
+            Want to be part of making .NET Conf Thailand 2025 amazing? We&apos;re looking for passionate volunteers to help with various aspects of the event. Join our team and contribute to the community!
           </p>
           <div className="mt-10">
             <Button>Volunteer - Coming Soon</Button>

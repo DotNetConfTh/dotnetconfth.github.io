@@ -14,7 +14,7 @@ export function Venue() {
             Venue
           </h2>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            The venue for this year's conference will be announced soon. Stay tuned for updates—we're working to secure an amazing location for the .NET Thailand community!
+            The venue for this year&apos;s conference will be announced soon. Stay tuned for updates—we&apos;re working to secure an amazing location for the .NET Thailand community!
           </p>
           <p className="mt-10 font-display text-2xl tracking-tight text-white">
             To be Announced

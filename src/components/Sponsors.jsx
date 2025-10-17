@@ -50,7 +50,7 @@ export function Sponsors() {
             Want to be a sponsor?
           </h4>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            Support Thailand's .NET community and connect with passionate developers. Help us keep this event free and accessible for everyone.
+            Support Thailand&apos;s .NET community and connect with passionate developers. Help us keep this event free and accessible for everyone.
           </p>
           <div className="mt-10">
             <Button>Sponsorship Info - Coming Soon</Button>

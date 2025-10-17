@@ -134,7 +134,7 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            Learn from industry experts and community leaders as they share insights on the latest .NET technologies, best practices, and real-world experiences. We're excited to announce our amazing speaker lineup, with more announcements coming soon!
+            Learn from industry experts and community leaders as they share insights on the latest .NET technologies, best practices, and real-world experiences. We&apos;re excited to announce our amazing speaker lineup, with more announcements coming soon!
           </p>
         </div>
         <Tab.Group
@@ -234,7 +234,7 @@ export function Speakers() {
             Want to be a speaker?
           </h4>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            Share your expertise with Thailand's .NET community! We're looking for passionate speakers to present innovative ideas, practical solutions, and inspiring stories about .NET technologies.
+            Share your expertise with Thailand&apos;s .NET community! We&apos;re looking for passionate speakers to present innovative ideas, practical solutions, and inspiring stories about .NET technologies.
           </p>
           <div className="mt-10">
             <Button>Call for Speakers - Coming Soon</Button>
