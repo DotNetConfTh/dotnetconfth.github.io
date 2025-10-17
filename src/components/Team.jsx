@@ -20,7 +20,7 @@ const coChairs = [
 const teams = [
   {
     name: 'Communication',
-    description: 'Manages event announcements, social media updates, and basic content creation.',
+    description: 'Manages conference announcements, social media campaigns, and content creation for .NET Conf Thailand 2025.',
     members: [
       { name: 'Chandra', image: chandraImage },
       { name: 'Boat', image: charunthonImage },
@@ -29,7 +29,7 @@ const teams = [
   },
   {
     name: 'Partnership',
-    description: 'Builds relationships with sponsors and partners to secure resources and funding for events.',
+    description: 'Secures sponsors and partners to make .NET Conf Thailand 2025 free and accessible to all developers.',
     members: [
       { name: 'Jose', image: joseImage },
       { name: 'Gitti', image: gittitatImage },
@@ -37,7 +37,7 @@ const teams = [
   },
   {
     name: 'Event Organization',
-    description: 'Plans and executes meetups, workshops, hackathons, and any conferences.',
+    description: 'Plans and executes .NET Conf Thailand 2025, from venue coordination to speaker management and day-of operations.',
     members: [
       { name: 'Giorgio', image: giorgioImage },
       { name: 'Nattawat', image: nattawatImage },
@@ -128,7 +128,7 @@ export function Team() {
             Join Our Team!
           </h3>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            Want to be part of making .NET Conf Thailand 2025 amazing? We&apos;re looking for passionate volunteers to help with various aspects of the event. Join our team and contribute to the community!
+            Help us make .NET Conf Thailand 2025 amazing! Join our volunteer team and be part of Thailand&apos;s premier .NET community event.
           </p>
           <div className="mt-10">
             <Button>Volunteer - Coming Soon</Button>
