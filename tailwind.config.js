@@ -49,6 +49,7 @@ module.exports = {
       animation: {
         'float': 'float 20s ease-in-out infinite',
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'submarine-float': 'submarine-float 8s ease-in-out infinite',
       },
       keyframes: {
         float: {
@@ -66,6 +67,17 @@ module.exports = {
           },
           '100%': {
             transform: 'translate(0px, 0px) rotate(0deg)',
+          },
+        },
+        'submarine-float': {
+          '0%': {
+            transform: 'translateX(0px) translateY(0px)',
+          },
+          '50%': {
+            transform: 'translateX(-40px) translateY(-15px)',
+          },
+          '100%': {
+            transform: 'translateX(0px) translateY(0px)',
           },
         },
       },

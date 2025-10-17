@@ -125,7 +125,7 @@ export function Speakers() {
       <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <ImageClipPaths id={id} />
-      <Container>
+      <Container className="relative z-10">
         <div className="mx-auto max-w-5xl text-center">
           <h2
             id="speakers-title"
@@ -190,8 +190,8 @@ export function Speakers() {
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex}>
-                    <div className="group relative h-[17.5rem] transform overflow-hidden rounded-4xl">
+                  <div key={speakerIndex} className="flex flex-col items-center">
+                    <div className="group relative w-[13rem] h-[13rem] transform overflow-hidden rounded-4xl">
                       <div
                         className={clsx(
                           'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
@@ -215,10 +215,10 @@ export function Speakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-white">
+                    <h3 className="mt-4 font-display text-lg font-bold tracking-tight text-white text-center">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-base tracking-tight text-gray-400">
+                    <p className="mt-1 text-sm tracking-tight text-gray-400 text-center">
                       {speaker.role}
                     </p>
                   </div>

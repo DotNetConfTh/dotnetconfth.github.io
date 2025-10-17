@@ -6,7 +6,7 @@ export function Venue() {
       {/* Smooth transition gradient overlays */}
       <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
-      <Container>
+      <Container className="relative z-10">
         <div className="mx-auto max-w-5xl text-center">
           <h2
             className="font-display text-4xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 sm:text-5xl"
