@@ -1,12 +1,8 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import logoRedHat from '@/images/logos/redhat1.png'
-import logoGummyBear from '@/images/logos/gummybear.png'
 import logoMicrosoft from '@/images/logos/microsoft.png'
 import logoJetBrains from '@/images/logos/jetbrains.png'
-import logoTtSoftware from '@/images/logos/ttsoftware.png'
-import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 import { Button } from './Button'
 
 const sponsors = [
@@ -57,7 +53,7 @@ export function Sponsors() {
             Support Thailand's .NET community and connect with passionate developers. Help us keep this event free and accessible for everyone.
           </p>
           <div className="mt-10">
-            <Button href="https://docs.google.com/presentation/d/e/2PACX-1vRwBnErXI-WD-eypFHDVhZfZyEZt6f759mT72PBKJvCXNiCQcVE4aRImCW--T9kIZJzHo6UC09wGHJP/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noreferrer">View Sponsorship Proposal</Button>
+            <Button>Sponsorship Info - Coming Soon</Button>
           </div>
         </div>
       </Container>

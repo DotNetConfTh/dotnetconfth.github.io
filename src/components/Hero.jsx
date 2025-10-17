@@ -14,7 +14,8 @@ export function Hero() {
         <div className="absolute top-1/2 left-1/2 w-[600px] h-[600px] -translate-x-1/2 -translate-y-1/2 bg-purple-600 opacity-15 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '2s' }} />
         {/* Smooth transition from header with taller gradient */}
         <div className="absolute inset-x-0 top-0 h-64 bg-gradient-to-b from-gray-900 via-gray-900/70 via-gray-900/40 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-gray-900/95" />
+        {/* Smooth transition to next section */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
         {/* Submarine decoration with improved visibility */}
         <div className="absolute right-0 top-[55%] -translate-y-1/2 w-1/2 max-w-2xl hidden lg:block opacity-75 animate-float">
           <Image

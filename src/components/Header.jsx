@@ -19,7 +19,7 @@ export function Header() {
             <p>Location: To be Announced</p>
           </div>
         </div>
-        <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
+        <div className="mt-10 flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <Button>Tickets - Coming Soon</Button>
         </div>
       </Container>
