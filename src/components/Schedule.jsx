@@ -8,10 +8,10 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'November 23',
-    dateTime: '2024-11-23',
+    date: 'November 29',
+    dateTime: '2025-11-29',
     summary:
-      'Celebrate and learn about what you can do with .NET 9 at the Thailand biggest .NET event',
+      'Celebrate and learn about what you can do with .NET 10 at the Thailand biggest .NET event',
       timeSlots: [
         {
           name: 'Registration and social time',
@@ -20,7 +20,7 @@ const schedule = [
           end: '10:00 AM',
         },
         {
-          name: 'Welcome to .NET Conf Thailand 2024',
+          name: 'Welcome to .NET Conf Thailand 2025',
           description: null,
           start: '10:00 AM',
           end: '10:15 AM',
@@ -163,7 +163,7 @@ function ScheduleTabbed() {
                 day={{
                   ...day,
                   date: (
-                    <Tab className="[&:not(:focus-visible)]:focus:outline-none">
+                    <Tab className="[&:not(:focus-visible)]:focus:outline-none text-left">
                       <span className="absolute inset-0" />
                       {day.date}
                     </Tab>
@@ -191,10 +191,10 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
+      <h3 className="text-2xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-blue-900">
+      <p className="mt-1.5 text-base tracking-tight text-gray-300">
         {day.summary}
       </p>
     </>
@@ -207,7 +207,7 @@ function TimeSlots({ day, className }) {
       role="list"
       className={clsx(
         className,
-        'space-y-8 bg-white/60 py-14 px-10 text-center shadow-xl shadow-blue-900/5 backdrop-blur'
+        'space-y-8 bg-gray-800/60 py-14 px-10 text-center shadow-xl shadow-dotnet-purple/20 backdrop-blur border border-dotnet-purple/20 rounded-3xl'
       )}
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
@@ -216,17 +216,17 @@ function TimeSlots({ day, className }) {
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
-            <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+            <div className="mx-auto mb-8 h-px w-48 bg-dotnet-purple/30" />
           )}
-          <h4 className="text-lg font-semibold tracking-tight text-blue-900">
+          <h4 className="text-lg font-semibold tracking-tight text-white">
             {timeSlot.name}
           </h4>
           {timeSlot.description && (
-            <p className="mt-1 tracking-tight text-blue-900">
+            <p className="mt-1 tracking-tight text-dotnet-blue-light">
               {timeSlot.description}
             </p>
           )}
-          <p className="mt-1 font-mono text-sm text-slate-500">
+          <p className="mt-1 font-mono text-sm text-gray-400">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
             </time>{' '}
@@ -257,35 +257,23 @@ function ScheduleStatic() {
 
 export function Schedule() {
   return (
-    <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
+    <section id="schedule" aria-label="Schedule" className="py-16 sm:py-24 bg-gray-900 relative">
+      {/* Smooth transition gradient overlays */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <Container className="relative z-10">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our schedule is packed with brilliant talks, creative environment and a lot of networking
+        <div className="mx-auto max-w-5xl text-center">
+          <h2 className="font-display text-4xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 sm:text-5xl">
+            Schedule
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            .NET Conf Thailand is a free and non-profit conference, the event is possible because of our sponsors, so a big thank you to all sponsors.
+          <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
+            A full day packed with brilliant talks, hands-on learning, and networking opportunities. The detailed schedule will be announced soon—stay tuned for an exciting lineup of sessions!
+          </p>
+          <p className="mt-10 font-display text-2xl tracking-tight text-white">
+            To be Announced
           </p>
         </div>
       </Container>
-      <div className="relative mt-14 sm:mt-24">
-        <div className="absolute inset-x-0 -top-40 -bottom-32 overflow-hidden bg-indigo-50">
-          <Image
-            className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-y-[-15%] sm:translate-x-[-20%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-y-[-8%] xl:translate-x-[27%]"
-            src={backgroundImage}
-            alt=""
-            width={918}
-            height={1495}
-            unoptimized
-          />
-          <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
-          <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
-        </div>
-        <Container className="relative">
-          <ScheduleTabbed />
-          <ScheduleStatic />
-        </Container>
-      </div>
     </section>
   )
 }

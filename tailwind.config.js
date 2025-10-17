@@ -20,6 +20,18 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      colors: {
+        'dotnet-purple': {
+          DEFAULT: '#583586',
+          light: '#7c4dae',
+          dark: '#3d2660',
+        },
+        'dotnet-blue': {
+          DEFAULT: '#1C9BD6',
+          light: '#3bb0e3',
+          dark: '#157aa8',
+        },
+      },
       borderRadius: {
         '4xl': '2rem',
         '5xl': '2.5rem',
@@ -30,6 +42,32 @@ module.exports = {
       },
       maxWidth: {
         '2xl': '40rem',
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+      animation: {
+        'float': 'float 20s ease-in-out infinite',
+        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+      keyframes: {
+        float: {
+          '0%': {
+            transform: 'translate(0px, 0px) rotate(0deg)',
+          },
+          '25%': {
+            transform: 'translate(-30px, -20px) rotate(-2deg)',
+          },
+          '50%': {
+            transform: 'translate(-50px, 15px) rotate(1deg)',
+          },
+          '75%': {
+            transform: 'translate(-20px, 30px) rotate(-1deg)',
+          },
+          '100%': {
+            transform: 'translate(0px, 0px) rotate(0deg)',
+          },
+        },
       },
     },
   },

@@ -15,29 +15,24 @@ const sponsors = [
 
 export function Venue() {
   return (
-    <section id="sponsors" aria-label="Sponsors" className="py-20 sm:py-32">
+    <section id="sponsors" aria-label="Sponsors" className="py-16 sm:py-24 bg-gray-900 relative">
+      {/* Smooth transition gradient overlays */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0 text-blue-900">
+        <div className="mx-auto max-w-5xl text-center">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 sm:text-5xl"
           >
             Venue
           </h2>
-          <p className="text-blue-900 mt-3">
-            This year the conference will be hosted at:
+          <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
+            The venue for this year's conference will be announced soon. Stay tuned for updates—we're working to secure an amazing location for the .NET Thailand community!
           </p>
-          <p className="mt-3 font-display text-2xl tracking-tight text-blue-900">
-            Seven Peaks Software
+          <p className="mt-10 font-display text-2xl tracking-tight text-white">
+            To be Announced
           </p>
-          <p className="mt-3">
-          </p>
-          <address className="mt-3">
-            <a href="https://maps.app.goo.gl/so6HqiA4S9ujQJuj6" target="_blank" rel="noreferrer">Address: The PARQ - 5th floor, East Wing, The PARQ, 88 Ratchadaphisek Rd, Bangkok 10110</a>
-          </address>
-          <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15503.818089555924!2d100.5588518!3d13.7212032!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29edcf8a9dcf5%3A0xcf0d1a437c55d078!2sSeven%20Peaks%20Software%20(Thailand)!5e0!3m2!1sen!2sth!4v1729773779216!5m2!1sen!2sth" height="450" width="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          </div>
         </div>
       </Container>
     </section>

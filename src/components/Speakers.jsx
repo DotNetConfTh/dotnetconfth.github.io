@@ -26,14 +26,9 @@ import tbaImage from '@/images/speakers/tba.svg'
 const days = [
   {
     name: 'Conference Day',
-    date: 'November 23',
-    dateTime: '2024-11-23',
+    date: 'November 29',
+    dateTime: '2025-11-29',
     speakers: [
-      {
-        name: 'Veeravat Jeensuksang',
-        role: 'Customer Success Account Manager at Microsoft Thailand',
-        image: veeravatImage,
-      },
       {
         name: 'Surasuk Oakkharaamonphong',
         role: 'Director and Technical Coach at INFINITAS by Krungthai',
@@ -45,49 +40,14 @@ const days = [
         image: wittawatImage,
       },
       {
-        name: 'Nattapong (Nok) Nunpan',
-        role: 'Software Engineer Consultant at United Nations',
-        image: nokImage,
-      },
-      {
         name: 'Gittitat Ekchantawut',
         role: 'Technical Specialist at MOHARA',
         image: gittitatImage,
       },
       {
-        name: 'Akkapon Somjai',
-        role: 'Technical Lead at Palo IT Thailand',
-        image: akkaponImage,
-      },
-      {
-        name: 'Yanyong Prommajarn',
-        role: 'Full Stack Developer at PALO IT Thailand',
-        image: yanyongImage,
-      },
-      {
         name: 'Charunthon (Boat) Limseelo',
         role: 'Microsoft Learn Student Ambassadors',
         image: charunthonImage,
-      },
-      {
-        name: 'Teerasej Jiraphatchandej',
-        role: 'Microsoft MVP AI',
-        image: teerasej,
-      },
-      {
-        name: 'Joel Dickson',
-        role: 'Director at Agoda',
-        image: joelImage,
-      },
-      {
-        name: 'Vorapat (Guide) Nicklamai',
-        role: 'Account Solution Architect at Red Hat Thailand',
-        image: vorapatImage,
-      },
-      {
-        name: 'Poonsiri Jailungka',
-        role: 'Researcher - Robotics Engineer at Institute of Field Robotics (FIBO) KMUTT',
-        image: pooonsiriImage,
       },
       {
         name: 'Giorgio Desideri',
@@ -99,11 +59,21 @@ const days = [
         role: 'Head of Engineering at Seven Peaks Software',
         image: joseImage,
       },
-      // {
-      //   name: 'To be announced',
-      //   role: '',
-      //   image: tbaImage,
-      // },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
+      {
+        name: 'To be announced',
+        role: '',
+        image: tbaImage,
+      },
     ],
   },
 ]
@@ -149,19 +119,22 @@ export function Speakers() {
     <section
       id="speakers"
       aria-labelledby="speakers-title"
-      className="py-20 sm:py-32"
+      className="py-16 sm:py-24 bg-gray-900 relative"
     >
+      {/* Smooth transition gradient overlays */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent pointer-events-none" />
       <ImageClipPaths id={id} />
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-5xl text-center">
           <h2
             id="speakers-title"
-            className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 sm:text-5xl"
           >
             Speakers
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Join the .NET Developers Community in Thailand to learn more about .NET!
+          <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
+            Learn from industry experts and community leaders as they share insights on the latest .NET technologies, best practices, and real-world experiences. We're excited to announce our amazing speaker lineup, with more announcements coming soon!
           </p>
         </div>
         <Tab.Group
@@ -170,7 +143,7 @@ export function Speakers() {
           vertical={tabOrientation === 'vertical'}
         >
           <div className="relative -mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:block sm:overflow-visible sm:pb-0">
-            <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block" />
+            <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-dotnet-purple/30 lg:block" />
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
                 days.map((day, dayIndex) => (
@@ -179,8 +152,8 @@ export function Speakers() {
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
-                          ? 'fill-blue-600 stroke-blue-600'
-                          : 'fill-transparent stroke-slate-400'
+                          ? 'fill-dotnet-purple stroke-dotnet-purple'
+                          : 'fill-transparent stroke-gray-600'
                       )}
                     />
                     <div className="relative">
@@ -188,8 +161,8 @@ export function Speakers() {
                         className={clsx(
                           'font-mono text-sm',
                           dayIndex === selectedIndex
-                            ? 'text-blue-600'
-                            : 'text-slate-500'
+                            ? 'text-dotnet-blue-light'
+                            : 'text-gray-500'
                         )}
                       >
                         <Tab className="[&:not(:focus-visible)]:focus:outline-none">
@@ -199,7 +172,7 @@ export function Speakers() {
                       </div>
                       <time
                         dateTime={day.dateTime}
-                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-blue-900"
+                        className="mt-1.5 block text-2xl font-semibold tracking-tight text-gray-200"
                       >
                         {day.date}
                       </time>
@@ -223,14 +196,14 @@ export function Speakers() {
                         className={clsx(
                           'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
                           [
-                            'border-blue-300',
-                            'border-indigo-300',
-                            'border-sky-300',
+                            'border-dotnet-purple',
+                            'border-dotnet-blue',
+                            'border-purple-500',
                           ][speakerIndex % 3]
                         )}
                       />
                       <div
-                        className="absolute inset-0 bg-indigo-50"
+                        className="absolute inset-0 bg-gray-800"
                         style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                       >
                         <Image
@@ -242,10 +215,10 @@ export function Speakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-slate-900">
+                    <h3 className="mt-8 font-display text-xl font-bold tracking-tight text-white">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-base tracking-tight text-slate-500">
+                    <p className="mt-1 text-base tracking-tight text-gray-400">
                       {speaker.role}
                     </p>
                   </div>
@@ -254,19 +227,18 @@ export function Speakers() {
             ))}
           </Tab.Panels>
         </Tab.Group>
-        <div className="mx-auto max-w-2xl lg:mx-0 mt-5">
+        <div className="mx-auto max-w-5xl text-center mt-16">
           <h4
-            className="mt-20 font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl"
+            className="font-display text-4xl font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 sm:text-5xl"
           >
             Want to be a speaker?
           </h4>
-          <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
-            Are you interested to be speaker a .NET Conf Thailand 2024? 
-            {/* <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" target="_blank" rel="noreferrer">Speaker Form.</Button> */}
+          <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
+            Share your expertise with Thailand's .NET community! We're looking for passionate speakers to present innovative ideas, practical solutions, and inspiring stories about .NET technologies.
           </p>
-          <p className="mt-4 font-display text-lg tracking-tight text-blue-900">
-          Please submit the speaker form. <Button href="https://dotnetconfth2024.eventbrite.com/?ref=site" target="_blank" rel="noreferrer">Speaker Form</Button>
-          </p>
+          <div className="mt-10">
+            <Button>Call for Speakers - Coming Soon</Button>
+          </div>
         </div>
       </Container>
     </section>
