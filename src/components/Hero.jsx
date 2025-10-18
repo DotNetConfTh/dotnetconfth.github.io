@@ -36,7 +36,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Button>
             {/* Submarine decoration positioned relative to CTA */}
-            <div className="absolute -right-4 top-12 w-[66%] sm:w-64 md:w-80 lg:w-[500px] xl:w-[600px] 2xl:w-[700px] opacity-70 sm:opacity-75 animate-submarine-float sm:animate-float pointer-events-none sm:static sm:ml-auto sm:-mt-20 sm:mr-0">
+            <div className="absolute -right-4 top-12 w-[66%] sm:w-64 md:w-80 lg:w-[500px] xl:w-[600px] 2xl:w-[700px] opacity-70 sm:opacity-75 animate-submarine-float lg:animate-submarine-float-fast pointer-events-none sm:static sm:ml-auto sm:-mt-20 sm:mr-0">
               <Image
                 src="/assets/dark-submarine.png"
                 alt=""
