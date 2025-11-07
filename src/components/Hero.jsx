@@ -31,8 +31,8 @@ export function Hero() {
             </p>
           </div>
           <div className="mt-8 sm:mt-8 md:mt-12 flex flex-col sm:flex-row gap-4 items-start relative">
-            <Button className="group relative overflow-hidden">
-              <span className="relative z-10">Tickets - Coming Soon</span>
+            <Button href="https://luma.com/fwnl803w" className="group relative overflow-hidden">
+              <span className="relative z-10">Get Tickets</span>
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Button>
             {/* Submarine decoration positioned relative to CTA */}

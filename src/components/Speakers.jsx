@@ -13,7 +13,7 @@ import wittawatImage from '@/images/speakers/wittawat.jpg'
 import giorgioImage from '@/images/speakers/giorgio.jpg'
 import teerasej from '@/images/speakers/teerasej.jpg'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
-import joseImage from '@/images/speakers/jose.jpg'
+import joseImage from '@/images/speakers/jose.png'
 import nokImage from '@/images/speakers/nok.jpg'
 import veeravatImage from '@/images/speakers/veeravat.jpg'
 import akkaponImage from '@/images/speakers/akkapon.jpg'
@@ -60,9 +60,9 @@ const days = [
         image: joseImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Joel Dickson',
+        role: 'Director at Agoda',
+        image: joelImage,
       },
       {
         name: 'To be announced',
@@ -237,7 +237,7 @@ export function Speakers() {
             Share your expertise with Thailand&apos;s .NET community! We&apos;re looking for passionate speakers to present innovative ideas, practical solutions, and inspiring stories about .NET technologies.
           </p>
           <div className="mt-10">
-            <Button>Call for Speakers - Coming Soon</Button>
+            <Button href="https://forms.gle/6gxbBGXP5aFZQUDe6">Submit Your Talk</Button>
           </div>
         </div>
       </Container>

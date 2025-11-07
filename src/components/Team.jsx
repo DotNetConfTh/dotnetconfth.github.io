@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
 
-import joseImage from '@/images/speakers/jose.jpg'
+import joseImage from '@/images/speakers/jose.png'
 import giorgioImage from '@/images/speakers/giorgio.jpg'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import charunthonImage from '@/images/speakers/charunthon.png'
@@ -131,7 +131,7 @@ export function Team() {
             Help us make .NET Conf Thailand 2025 amazing! Join our volunteer team and be part of Thailand&apos;s premier .NET community event.
           </p>
           <div className="mt-10">
-            <Button>Volunteer - Coming Soon</Button>
+            <Button href="https://forms.gle/anF2N95YFjB9jt3S7">Become a Volunteer</Button>
           </div>
         </div>
       </Container>

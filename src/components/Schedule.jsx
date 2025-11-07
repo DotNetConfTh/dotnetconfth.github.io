@@ -5,6 +5,8 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
+import joseImage from '@/images/speakers/jose.png'
+import giorgioImage from '@/images/speakers/giorgio.jpg'
 
 const schedule = [
   {
@@ -14,112 +16,102 @@ const schedule = [
       'Celebrate and learn about what you can do with .NET 10 at the Thailand biggest .NET event',
       timeSlots: [
         {
-          name: 'Registration and social time',
+          name: 'Registration',
           description: null,
+          start: '09:00 AM',
+          end: '09:30 AM',
+        },
+        {
+          name: 'Welcome to .NET Conf Thailand 2025',
+          description: 'Jose Barbosa',
+          speaker: {
+            name: 'Jose Barbosa',
+            image: joseImage,
+          },
           start: '09:30 AM',
           end: '10:00 AM',
         },
         {
-          name: 'Welcome to .NET Conf Thailand 2025',
-          description: null,
+          name: 'Keynote Session',
+          description: 'Speaker TBA',
           start: '10:00 AM',
-          end: '10:15 AM',
+          end: '10:30 AM',
         },
         {
-          name: 'Your Tests Should Be Readable: AI Meets Roslyn to Transform Test Assertions',
-          description: 'Joel Dickson',
-          start: '10:15 AM',
+          name: 'Session 2',
+          description: 'Speaker TBA',
+          start: '10:30 AM',
           end: '11:00 AM',
         },
         {
-          name: "The Official OpenAI Library for .NET",
-          description: 'Surasuk Oakkharaamonphong',
+          name: 'Session 3',
+          description: 'Speaker TBA',
           start: '11:00 AM',
           end: '11:30 AM',
         },
         {
-          name: "Develop a .NET AI Application - Scenarios from a Solution Architect",
-          description: 'Giorgio Desideri',
+          name: 'Session 4',
+          description: 'Speaker TBA',
           start: '11:30 AM',
           end: '12:00 PM',
         },
         {
-          name: 'Lunch',
+          name: 'Lunch Break',
           description: null,
           start: '12:00 PM',
-          end: '13:00 PM',
+          end: '01:00 PM',
         },
         {
-          name: 'Social Time',
+          name: 'Session 5',
+          description: 'Speaker TBA',
+          start: '01:00 PM',
+          end: '01:30 PM',
+        },
+        {
+          name: 'Session 6',
+          description: 'Speaker TBA',
+          start: '01:30 PM',
+          end: '02:00 PM',
+        },
+        {
+          name: 'Session 7',
+          description: 'Speaker TBA',
+          start: '02:00 PM',
+          end: '02:30 PM',
+        },
+        {
+          name: 'Session 8',
+          description: 'Speaker TBA',
+          start: '02:30 PM',
+          end: '03:00 PM',
+        },
+        {
+          name: 'Coffee Break',
           description: null,
-          start: '13:00 PM',
-          end: '13:30 PM',
+          start: '03:00 PM',
+          end: '03:30 PM',
         },
         {
-          name: 'Building Resilient .NET Applications',
-          description: 'Nattapong Nunpan',
-          start: '13:30 PM',
-          end: '14:00 PM',
+          name: 'Session 9',
+          description: 'Speaker TBA',
+          start: '03:30 PM',
+          end: '04:00 PM',
         },
         {
-          name: 'Unity 6: Unlocking New Possibilities for Creators',
-          description: 'Gittitat Ekchantawut',
-          start: '14:00 PM',
-          end: '14:30 PM',
+          name: 'Session 10',
+          description: 'Speaker TBA',
+          start: '04:00 PM',
+          end: '04:30 PM',
         },
         {
-          name: 'Build Your First Augmented Reality Mobile App with Unity',
-          description: 'Akkapon Somjai',
-          start: '14:30 PM',
-          end: '15:00 PM',
-        },
-        {
-          name: "Break",
-          description: null,
-          start: '15:00 PM',
-          end: '15:15 PM',
-        },
-        {
-          name: 'Developing Local AI Models with .NET and AutoGen',
-          description: 'Charunthon Limseelo',
-          start: '15:15 PM',
-          end: '15:45 PM',
-        },
-        {
-          name: 'Tracking usage in Gen AI application with Azure OpenAI Service',
-          description: 'Teerasej Jiraphatchandej',
-          start: '15:45 PM',
-          end: '16:15 PM',
-        },
-        {
-          name: "Building and deploying an Azure Functions app with .NET Aspire",
-          description: 'Veeravat Jeensuksang',
-          start: '16:15 PM',
-          end: '16:45 PM',
-        },
-        {
-          name: ".NET Performance Considerations on Linux",
-          description: 'Vorapat Nicklamai',
-          start: '16:45 PM',
-          end: '17:00 PM',
-        },
-        {
-          name: "Revolutionizing Industry with .NET and Unity: A Beginner’s Guide to Digital Twins and Mixed Reality",
-          description: 'Poonsiri Jailungka',
-          start: '17:00 PM',
-          end: '17:15 PM',
-        },
-        {
-          name: 'Closing + Group Photo',
-          description: "Jose Barbosa and Giorgio Desideri",
-          start: '17:15 PM',
-          end: '17:30 PM',
-        },
-        {
-          name: 'Social Time',
-          description: null,
-          start: '17:30 PM',
-          end: '18:00 PM',
+          name: 'Closing Ceremony',
+          description: 'Giorgio Desideri',
+          speaker: {
+            name: 'Giorgio Desideri',
+            image: giorgioImage,
+          },
+          start: '04:30 PM',
+          end: '05:00 PM',
         },
     ],
   },
@@ -221,7 +213,23 @@ function TimeSlots({ day, className }) {
           <h4 className="text-lg font-semibold tracking-tight text-white">
             {timeSlot.name}
           </h4>
-          {timeSlot.description && (
+          {timeSlot.speaker && (
+            <div className="mt-3 flex items-center justify-center gap-3">
+              <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-dotnet-blue shadow-md">
+                <Image
+                  src={timeSlot.speaker.image}
+                  alt={timeSlot.speaker.name}
+                  fill
+                  className="object-cover"
+                  unoptimized
+                />
+              </div>
+              <p className="tracking-tight text-dotnet-blue-light">
+                {timeSlot.speaker.name}
+              </p>
+            </div>
+          )}
+          {timeSlot.description && !timeSlot.speaker && (
             <p className="mt-1 tracking-tight text-dotnet-blue-light">
               {timeSlot.description}
             </p>
@@ -267,12 +275,11 @@ export function Schedule() {
             Schedule
           </h2>
           <p className="mt-6 text-xl sm:text-2xl tracking-tight text-gray-300 leading-relaxed">
-            A full day packed with brilliant talks, hands-on learning, and networking opportunities. The detailed schedule will be announced soon—stay tuned for an exciting lineup of sessions!
-          </p>
-          <p className="mt-10 font-display text-2xl tracking-tight text-white">
-            To be Announced
+            A full day packed with brilliant talks, hands-on learning, and networking opportunities. Join us for an exciting lineup of sessions covering .NET 10, AI, cloud technologies, and more!
           </p>
         </div>
+        <ScheduleTabbed />
+        <ScheduleStatic />
       </Container>
     </section>
   )

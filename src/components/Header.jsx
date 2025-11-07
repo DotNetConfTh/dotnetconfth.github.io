@@ -16,11 +16,11 @@ export function Header() {
               <time dateTime="2025-11-29">29 of November, 2025</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Location: To be Announced</p>
+            <p>Location: <a href="https://maps.app.goo.gl/kkK1pH7kZ1mk3kY16" target="_blank" rel="noreferrer" className="hover:text-purple-300 transition-colors underline decoration-purple-400/60 hover:decoration-purple-300">Seven Peaks Software</a></p>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button>Tickets - Coming Soon</Button>
+          <Button href="https://luma.com/fwnl803w">Get Tickets</Button>
         </div>
       </Container>
     </header>

@@ -52,7 +52,7 @@ export function Footer() {
             </div>
 
             {/* Button */}
-            <Button className="text-sm px-6 py-2">Tickets - Coming Soon</Button>
+            <Button href="https://luma.com/fwnl803w" className="text-sm px-6 py-2">Get Tickets</Button>
           </div>
 
           {/* Footer Text */}

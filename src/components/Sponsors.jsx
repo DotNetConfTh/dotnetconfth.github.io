@@ -3,16 +3,18 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import logoMicrosoft from '@/images/logos/microsoft.png'
 import logoJetBrains from '@/images/logos/jetbrains.png'
+import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 import { Button } from './Button'
 
 const sponsors = [
   { name: 'Microsoft', logo: logoMicrosoft },
   { name: 'JetBrains', logo: logoJetBrains },
+  { name: 'Seven Peaks Software', logo: logoSevenPeaks },
 ]
 
 function Sponsor({sponsor}) {
   return (
-    <div className="flex items-center justify-center h-32 w-64">
+    <div className="flex items-center justify-center h-32 w-64 bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
       <Image
         src={sponsor.logo}
         alt={sponsor.name}
