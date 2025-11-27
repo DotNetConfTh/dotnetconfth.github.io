@@ -9,18 +9,14 @@ import { DiamondIcon } from '@/components/DiamondIcon'
 
 import joelImage from '@/images/speakers/joel.jpg'
 import surasukImage from '@/images/speakers/surasuk.jpg'
-import wittawatImage from '@/images/speakers/wittawat.jpg'
+import charunthonImage from '@/images/speakers/charunthon.png'
 import giorgioImage from '@/images/speakers/giorgio.jpg'
-import teerasej from '@/images/speakers/teerasej.jpg'
+import teerasejImage from '@/images/speakers/teerasej.jpg'
 import gittitatImage from '@/images/speakers/gittitat.jpg'
 import joseImage from '@/images/speakers/jose.png'
-import nokImage from '@/images/speakers/nok.jpg'
-import veeravatImage from '@/images/speakers/veeravat.jpg'
-import akkaponImage from '@/images/speakers/akkapon.jpg'
-import yanyongImage from '@/images/speakers/yanyong.jpg'
-import vorapatImage from '@/images/speakers/vorapat.jpg'
-import charunthonImage from '@/images/speakers/charunthon.png'
-import pooonsiriImage from '@/images/speakers/pooonsiri.jpg'
+import vasuponImage from '@/images/speakers/vasupon.jpg'
+import ratchapolImage from '@/images/speakers/ratchapol.jpg'
+import rafeeImage from '@/images/speakers/rafee.jpg'
 import tbaImage from '@/images/speakers/tba.svg'
 
 const days = [
@@ -30,49 +26,54 @@ const days = [
     dateTime: '2025-11-29',
     speakers: [
       {
+        name: 'Vasupon Thankakan',
+        role: 'Chief Operating Officer @ Microsoft Thailand',
+        image: vasuponImage,
+      },
+      {
         name: 'Surasuk Oakkharaamonphong',
-        role: 'Director and Technical Coach at INFINITAS by Krungthai',
+        role: 'Microsoft MVP AI Platform & Developer Technologies',
         image: surasukImage,
       },
       {
-        name: 'Wittawat Karpkrikaew',
-        role: 'CTO at T. T. Software Solution',
-        image: wittawatImage,
-      },
-      {
-        name: 'Gittitat Ekchantawut',
-        role: 'Technical Specialist at MOHARA',
-        image: gittitatImage,
-      },
-      {
-        name: 'Charunthon (Boat) Limseelo',
-        role: 'Microsoft Learn Student Ambassadors',
+        name: 'Charunthon Limseelo',
+        role: 'Microsoft Learn Student Ambassador',
         image: charunthonImage,
       },
       {
-        name: 'Giorgio Desideri',
-        role: 'Principal Solutions Architect at Seven Peaks Software',
-        image: giorgioImage,
-      },
-      {
-        name: 'Jose Barbosa',
-        role: 'Head of Engineering at Seven Peaks Software',
-        image: joseImage,
+        name: 'Teerasej Jiraphatchandej',
+        role: 'Microsoft AI MVP',
+        image: teerasejImage,
       },
       {
         name: 'Joel Dickson',
-        role: 'Director at Agoda',
+        role: 'Director @ Agoda',
         image: joelImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Ratchapol Anantawat',
+        role: 'Lead Software Engineer @ Agoda',
+        image: ratchapolImage,
       },
       {
-        name: 'To be announced',
-        role: '',
-        image: tbaImage,
+        name: 'Gittitat Ekchantawut',
+        role: 'Technical Specialist @ MOHARA',
+        image: gittitatImage,
+      },
+      {
+        name: 'Md Rafee',
+        role: 'Senior Software Engineer @ Seven Peaks Software',
+        image: rafeeImage,
+      },
+      {
+        name: 'Jose Barbosa',
+        role: 'Head of Engineering @ Seven Peaks Software',
+        image: joseImage,
+      },
+      {
+        name: 'Giorgio Desideri',
+        role: 'Principal Solutions Architect @ Seven Peaks Software',
+        image: giorgioImage,
       },
     ],
   },
@@ -190,24 +191,24 @@ export function Speakers() {
                 unmount={false}
               >
                 {day.speakers.map((speaker, speakerIndex) => (
-                  <div key={speakerIndex} className="flex flex-col items-center">
-                    <div className="group relative w-[13rem] h-[13rem] transform overflow-hidden rounded-4xl">
+                  <div key={speakerIndex} className="flex flex-col items-center group/card">
+                    <div className="group relative w-[13rem] h-[13rem] transform rounded-4xl transition-transform duration-300 hover:scale-105 will-change-transform">
                       <div
                         className={clsx(
-                          'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border transition duration-300 group-hover:scale-95 xl:right-6',
+                          'absolute top-0 left-0 right-4 bottom-6 rounded-4xl border-2 transition-all duration-300 group-hover:scale-95 group-hover:shadow-lg xl:right-6 will-change-transform',
                           [
-                            'border-dotnet-purple',
-                            'border-dotnet-blue',
-                            'border-purple-500',
+                            'border-dotnet-purple group-hover:shadow-dotnet-purple/50',
+                            'border-dotnet-blue group-hover:shadow-dotnet-blue/50',
+                            'border-purple-500 group-hover:shadow-purple-500/50',
                           ][speakerIndex % 3]
                         )}
                       />
                       <div
-                        className="absolute inset-0 bg-gray-800"
+                        className="absolute inset-0 bg-gray-800 rounded-4xl overflow-hidden"
                         style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
                       >
                         <Image
-                          className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-110"
+                          className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-110 will-change-transform"
                           src={speaker.image}
                           alt=""
                           priority
@@ -215,10 +216,10 @@ export function Speakers() {
                         />
                       </div>
                     </div>
-                    <h3 className="mt-4 font-display text-lg font-bold tracking-tight text-white text-center">
+                    <h3 className="mt-5 font-display text-lg font-bold tracking-tight text-white text-center transition-colors duration-300 group-hover/card:text-transparent group-hover/card:bg-clip-text group-hover/card:bg-gradient-to-r group-hover/card:from-purple-400 group-hover/card:to-blue-400">
                       {speaker.name}
                     </h3>
-                    <p className="mt-1 text-sm tracking-tight text-gray-400 text-center">
+                    <p className="mt-2 text-sm tracking-tight text-gray-400 text-center max-w-[13rem] leading-relaxed">
                       {speaker.role}
                     </p>
                   </div>

@@ -2,13 +2,11 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import logoMicrosoft from '@/images/logos/microsoft.png'
-import logoJetBrains from '@/images/logos/jetbrains.png'
 import logoSevenPeaks from '@/images/logos/sevenpeaks.png'
 import { Button } from './Button'
 
 const sponsors = [
   { name: 'Microsoft', logo: logoMicrosoft },
-  { name: 'JetBrains', logo: logoJetBrains },
   { name: 'Seven Peaks Software', logo: logoSevenPeaks },
 ]
 
