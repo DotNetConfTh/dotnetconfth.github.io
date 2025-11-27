@@ -344,7 +344,7 @@ export function Schedule() {
           </div>
 
           <p className="mt-4 text-sm text-gray-400 tracking-wide">
-            Celebrate and learn about what you can do with .NET 10 at Thailand's biggest .NET event
+            Celebrate and learn about what you can do with .NET 10 at Thailand&apos;s biggest .NET event
           </p>
         </div>
 

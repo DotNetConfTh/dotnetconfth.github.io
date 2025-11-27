@@ -53,7 +53,7 @@ export function Sponsors() {
             Support Thailand&apos;s .NET community and connect with passionate developers. Help us keep this event free and accessible for everyone.
           </p>
           <div className="mt-10">
-            <Button>Sponsorship Info - Coming Soon</Button>
+            <Button href="https://docs.google.com/presentation/d/e/2PACX-1vQ6Fw5x2sKNmto8Hb-mIyAaB-NBhHcVgzoN_oP3F3YN05sNce7etwzlwgC9zLjuEV2LonuGNH_Lxl37/pub?start=false&loop=false&delayms=3000">View Sponsorship Deck</Button>
           </div>
         </div>
       </Container>
