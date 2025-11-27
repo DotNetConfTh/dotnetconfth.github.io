@@ -9,7 +9,7 @@ import joseImage from '@/images/speakers/jose.png'
 import giorgioImage from '@/images/speakers/giorgio.jpg'
 import vasuponImage from '@/images/speakers/vasupon.jpg'
 import surasukImage from '@/images/speakers/surasuk.jpg'
-import boatImage from '@/images/speakers/wittawat.jpg'
+import charunthonImage from '@/images/speakers/charunthon.png'
 import tjImage from '@/images/speakers/teerasej.jpg'
 import joelImage from '@/images/speakers/joel.jpg'
 import ratchapolImage from '@/images/speakers/ratchapol.jpg'
@@ -61,10 +61,10 @@ const schedule = [
         },
         {
           name: '.NET Ecosystem For Sustainable SLMs with Foundry Local: Tools, Techniques, and Tomorrow',
-          description: 'Boat',
+          description: 'Charunthon Limseelo',
           speaker: {
-            name: 'Boat',
-            image: boatImage,
+            name: 'Charunthon Limseelo',
+            image: charunthonImage,
           },
           start: '11:00 AM',
           end: '11:30 AM',
